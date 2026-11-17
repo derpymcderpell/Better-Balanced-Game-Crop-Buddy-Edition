@@ -20,7 +20,7 @@ INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
 -- Sphinx base Faith Increased to 2 (from 1)
 UPDATE Improvement_YieldChanges SET YieldChange=2 WHERE ImprovementType='IMPROVEMENT_SPHINX' AND YieldType='YIELD_FAITH';
 -- +1 Faith and +1 Culture if adjacent to a wonder, instead of 2 Faith.
-UPDATE ModifierArguments SET Value='1' WHERE ModifierId='SPHINX_WONDERADJACENCY_FAITH' AND Name='Amount';
+UPDATE ModifierArguments SET Value='2' WHERE ModifierId='SPHINX_WONDERADJACENCY_FAITH' AND Name='Amount';
 INSERT OR IGNORE INTO Modifiers (ModifierId , ModifierType , SubjectRequirementSetId)
     VALUES ('SPHINX_WONDERADJACENCY_CULTURE_CPLMOD' , 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS' , 'PLOT_ADJACENT_TO_WONDER_REQUIREMENTS');
 INSERT OR IGNORE INTO ModifierArguments (ModifierId , Name , Value)
