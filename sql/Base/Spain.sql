@@ -18,10 +18,10 @@ UPDATE ModifierArguments SET Value='5' WHERE ModifierId='CONQUISTADOR_SPECIFIC_U
 INSERT INTO StartBiasTerrains(CivilizationType, TerrainType, Tier) VALUES
     ('CIVILIZATION_SPAIN', 'TERRAIN_COAST', 1);
 
--- Give x2 yield instead of x3
-UPDATE ModifierArguments SET Value='2' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_FAITH' AND Name='Amount';
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD' AND Name='Amount';
-UPDATE ModifierArguments SET Value='1' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_PRODUCTION' AND Name='Amount';
+-- Give x2 yield instead of x3 (changed to 1.5x)
+UPDATE ModifierArguments SET Value='1' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_FAITH' AND Name='Amount';
+UPDATE ModifierArguments SET Value='1.5' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0.5' WHERE ModifierId='TRAIT_INTERCONTINENTAL_INTERNATIONAL_PRODUCTION' AND Name='Amount';
 --15/06/23 Remove double yields for internal
 -- UPDATE ModifierArguments SET Value='2' WHERE ModifierId='TRAIT_INTERCONTINENTAL_DOMESTIC_FAITH' AND Name='Amount';
 -- UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_INTERCONTINENTAL_DOMESTIC_GOLD' AND Name='Amount';
