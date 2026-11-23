@@ -313,7 +313,7 @@
 		</Replace>
 		<!-- = leader ability (Qin Shi Huang, Mandate of Heaven) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="en_US">
-			<Text>Builder receive an additional [ICON_CHARGES] charge. When building Ancient and Classical Wonders you may spend Builder [ICON_CHARGES] charge to complete 15% of the Wonder [ICON_PRODUCTION] Production cost. +1 [ICON_FOOD] Food per wonder built in each city. Canals are unlocked with the Masonry technology.[NEWLINE][NEWLINE]When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder if available.</Text>
+			<Text>Builder receive an additional [ICON_CHARGES] charge. When building Ancient and Classical Wonders you may spend Builder [ICON_CHARGES] charge to complete 15% of the [ICON_DISTRICT_WONDER] Wonder [ICON_PRODUCTION] Production cost. +1 [ICON_FOOD] Food per wonder built in each city. Canals are unlocked with the Masonry technology.[NEWLINE][NEWLINE]When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder if available.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>Builder receive an additional [ICON_CHARGES] charge. When building Ancient and Classical Wonders you may spend Builder [ICON_CHARGES] charge to complete 15% of the Wonder [ICON_PRODUCTION] Production cost. +1 [ICON_FOOD] Food per wonder built in each city. Canals are unlocked with the Masonry technology.[NEWLINE][NEWLINE]When completing a wonder receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from the era of the wonder if available.</Text>
@@ -494,7 +494,7 @@
 		<!-- == ELEANOR (LEADER) == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="en_US">
-			<Text>+100% [ICON_PRODUCTION] Production to Theater Square Buildings.[NEWLINE][NEWLINE]Great Works receive additional yields based on the districts built in this city (+1 for [ICON_GREATWORK_WRITING] Writings and [ICON_GREATWORK_RELIC] Relics, +2 for [ICON_GREATWORK_LANDSCAPE] Art and [ICON_GREATWORK_ARTIFACT] Artifacts, +4 for [ICON_GREATWORK_MUSIC] Music):[NEWLINE][ICON_SCIENCE] Science for Campus.[NEWLINE][ICON_CULTURE] Culture for Theater Square.[NEWLINE][ICON_GOLD] Gold for Harbor or Commercial Hub.	[NEWLINE][ICON_FAITH] Faith for Holy Site.[NEWLINE][ICON_PRODUCTION] Production for Industrial Zone.[NEWLINE][ICON_FOOD] Food for Neighborhood.[NEWLINE](Can't receive bonus yields on great works from Anshan)[NEWLINE][NEWLINE]Great Works in Eleanor's cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.[NEWLINE][NEWLINE]When Eleanor leads France receive +20% [ICON_PRODUCTION] Production toward ancient and classical wonders.</Text>
+			<Text>+100% [ICON_PRODUCTION] Production to Theater Square Buildings.[NEWLINE][NEWLINE]Great Works receive additional yields based on the districts built in this city (+1 for [ICON_GREATWORK_WRITING] Writings and [ICON_GREATWORK_RELIC] Relics, +2 for [ICON_GREATWORK_LANDSCAPE] Art and [ICON_GREATWORK_ARTIFACT] Artifacts, +4 for [ICON_GREATWORK_MUSIC] Music):[NEWLINE][ICON_SCIENCE] Science for Campus.[NEWLINE][ICON_CULTURE] Culture for Theater Square.[NEWLINE][ICON_GOLD] Gold for Harbor or Commercial Hub.	[NEWLINE][ICON_FAITH] Faith for Holy Site.[NEWLINE][ICON_PRODUCTION] Production for Industrial Zone.[NEWLINE][ICON_FOOD] Food for Neighborhood.[NEWLINE](Can't receive bonus yields on great works from Anshan)[NEWLINE][NEWLINE]Great Works in Eleanor's cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.[NEWLINE][NEWLINE]When Eleanor leads France receive +15% [ICON_PRODUCTION] Production toward Ancient and Classical [ICON_DISTRICT_WONDER] Wonders.</Text>
 		</Replace>
 
 
@@ -592,7 +592,7 @@
 		<!-- == FRANCE == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="en_US">
-			<Text>Receives a free Spy (and extra spy capacity) at Castles. All spies start with a [ICON_PROMOTION] free promotion. +20% [ICON_PRODUCTION] Production toward Medieval, Renaissance, and Industrial era Wonders. +50% [ICON_TOURISM] Tourism from Wonders of any era.[NEWLINE][ICON_BULLET]Bias: T4 Rivers.</Text>
+			<Text>Receives a free Spy (and extra spy capacity) at Castles. All spies start with a [ICON_PROMOTION] free promotion. +20% [ICON_PRODUCTION] Production toward Medieval, Renaissance, and Industrial era Wonders. +50% [ICON_TOURISM] Tourism from [ICON_DISTRICT_WONDER] Wonders of any era.[NEWLINE][ICON_BULLET]Bias: T4 Rivers.</Text>
 		</Replace>
 		<!-- = leader ability (Black Queen) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="en_US">
@@ -707,7 +707,7 @@
 
 		<!-- = leader ability (Ludwig II) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_DESCRIPTION" Language="en_US"> <!-- add icon -->
-			<Text>Wonders (complete and incomplete) receive +1 [ICON_CULTURE] Culture for every adjacent [ICON_DISTRICT] District as adjacency bonus. All [ICON_CULTURE] Culture adjacencies provide [ICON_TOURISM] Tourism with Castles. [NEWLINE]Hansa receives major adjacency bonus from Commercial Hubs.</Text>
+			<Text>[ICON_DISTRICT_WONDER] Wonders (complete and incomplete) receive +1 [ICON_CULTURE] Culture for every adjacent [ICON_DISTRICT] District as adjacency bonus. All [ICON_CULTURE] Culture adjacencies provide [ICON_TOURISM] Tourism with Castles. [NEWLINE]Hansa receives major adjacency bonus from Commercial Hubs.</Text>
 		</Replace>
 		<!-- = unique district (Hansa) = -->
 		<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="en_US">
@@ -1624,7 +1624,7 @@
 
 		<!-- == SWEDEN == -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MINERVA_OF_THE_NORTH_DESCRIPTION" Language="en_US">
-			<Text>Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when they have all their slots filled. She may construct the Queen's Bibliotheque in the Government Plaza.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production from Great Works of Art.[NEWLINE]+4 Production from Great Works of Music."</Text>
+			<Text>Buildings with at least three Great Work slots and [ICON_DISTRICT_WONDER] Wonders with at least two Great Work slots are automatically themed when they have all their slots filled. She may construct the Queen's Bibliotheque in the Government Plaza.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production from Great Works of Art.[NEWLINE]+4 Production from Great Works of Music."</Text>
 		</Replace>
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
