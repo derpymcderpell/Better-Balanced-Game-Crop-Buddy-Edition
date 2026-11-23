@@ -28,4 +28,4 @@ DELETE from TraitModifiers where TraitType='TRAIT_LEADER_MONASTERIES_KING' and M
 
 -- 12/07/22: no more culture bomb on holy site
 -- 17/04/23 Revert
--- DELETE FROM TraitModifiers WHERE TraitType='TRAIT_LEADER_MONASTERIES_KING' AND ModifierId='TRAIT_HOLY_SITE_CULTURE_BOMB';
+DELETE FROM TraitModifiers WHERE TraitType='TRAIT_LEADER_MONASTERIES_KING' AND ModifierId='TRAIT_HOLY_SITE_CULTURE_BOMB';
