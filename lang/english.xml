@@ -1572,7 +1572,7 @@
 		</Row>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
-			<Text>Sumerian unique builder improvement available from the start of the game. Cannot be built on Hills or adjacent to another Ziggurat.[NEWLINE][NEWLINE]+2 [ICON_SCIENCE] Science and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_CULTURE] Culture if built next to River.[NEWLINE]+1 [ICON_FAITH] Faith after Early Empire for each adjacent district or for every 2 adjacent Farms.</Text>
+			<Text>Sumerian unique builder improvement available from the start of the game. Cannot be built on Hills or adjacent to another Ziggurat.[NEWLINE][NEWLINE]+2 [ICON_SCIENCE] Science and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_CULTURE] Culture if built next to River.[NEWLINE]+1 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science after Early Empire for each adjacent district or for every 2 adjacent Farms.</Text>
 		</Replace>
 
 
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
