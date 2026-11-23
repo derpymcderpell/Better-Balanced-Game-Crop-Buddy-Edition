@@ -1011,7 +1011,7 @@
 		<!-- == KUBLAI (LEADER) == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_KUBLAI_DESCRIPTION" Language="en_US">
-			<Text>One extra Economic policy slot in any [ICON_GOVERNMENT] government.[NEWLINE]+1 [ICON_SCIENCE] Science and +1 [ICON_CULTURE] Culture per international trade route and +1 [ICON_SCIENCE] Science and +1 [ICON_CULTURE] Culture for each 25 tiles traveled on all trade routes.[NEWLINE][NEWLINE]Receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration when establishing a [ICON_TRADINGPOST] Trading Post in another Civilization's city for the first time.</Text>
+			<Text>One extra Economic policy slot in any [ICON_GOVERNMENT] government.[NEWLINE]+1 [ICON_SCIENCE] Science and +1 [ICON_CULTURE] Culture per international trade route and +1 [ICON_SCIENCE] Science for each 25 tiles traveled on all trade routes.[NEWLINE][NEWLINE]Receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration when establishing a [ICON_TRADINGPOST] Trading Post in another Civilization's city for the first time.</Text>
 		</Replace>
 		
 
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
