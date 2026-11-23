@@ -320,7 +320,7 @@
 		</Replace>
 		<!-- = leader ability (Qin Shi Huang, Unifier) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="en_US">
-			<Text>Melee units receive the Convert Barbarians action, which consumes the melee unit.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production towards Encampment buildings. +1 [ICON_GreatWriter] Great Writer point from Encampment districts. Barracks and Stable buildings provide 2 slots for [ICON_GreatWork_WRITING] Great Works of Writing. Great Works of Writing provide +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]When recruiting a Great General or Great Writer receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.</Text>
+			<Text>Melee units receive the Convert Barbarians action, which consumes the melee unit.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production towards [ICON_DISTRICT_ENCAMPMENT] Encampment buildings. +1 [ICON_GreatWriter] Great Writer point from Encampment districts. Barracks, Stables, and Armory buildings provide 2 slots for [ICON_GreatWork_WRITING] Great Works of Writing. Great Works of Writing provide +1.5 [ICON_FOOD] Food.[NEWLINE][NEWLINE]When recruiting a Great General or Great Writer, receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.</Text>
 		</Replace>
 		<!-- = leader ability (Yongle) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_YONGLE_XP_DESCRIPTION" Language="en_US">
@@ -1625,7 +1625,7 @@
 		<!-- == SWEDEN == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
-			<Text>Sweden gains 20 [ICON_FAVOR] Diplomatic Favor (on Standard speed) when earning a [ICON_GreatPerson] Great Person. Having Sweden in the game adds three unique World Congress competitions starting in the Renaissance Era.[NEWLINE]+50% [ICON_PRODUCTION] Production towards Campus, Industrial Zone and Government Plaza buildings.[NEWLINE][NEWLINE]+1 [ICON_GreatEngineer] Great Engineer point from Industrial Zone buildings.[NEWLINE]+1 [ICON_GreatScientist] Great Scientist point from Campus buildings.[NEWLINE]+2 [ICON_GREATWRITER] Great Writer points from tier 1 Gov't Plaza building.[NEWLINE]+2 [ICON_GREATARTIST] Great Artist points from tier 2 Gov't Plaza building.[NEWLINE]+2 [ICON_GREATMUSICIAN] Great Musician points from tier 3 Gov't Plaza building. +2 [ICON_GREATSCIENTIST] Great Scientist points and +2 [ICON_GREATENGINEER] Great Engineer points per tier of Government Plaza building.[NEWLINE][ICON_BULLET]Bias: Special "King of the North"</Text>
+			<Text>Sweden gains 20 [ICON_FAVOR] Diplomatic Favor (on Online speed) when earning a [ICON_GreatPerson] Great Person. Having Sweden in the game adds three unique World Congress competitions starting in the Renaissance Era.[NEWLINE]+50% [ICON_PRODUCTION] Production towards Campus, Industrial Zone and Government Plaza buildings.[NEWLINE][NEWLINE]+1 [ICON_GreatEngineer] Great Engineer point from Industrial Zone buildings.[NEWLINE]+1 [ICON_GreatScientist] Great Scientist point from Campus buildings.[NEWLINE]+2 [ICON_GREATWRITER] Great Writer points from tier 1 Gov't Plaza building.[NEWLINE]+2 [ICON_GREATARTIST] Great Artist points from tier 2 Gov't Plaza building.[NEWLINE]+2 [ICON_GREATMUSICIAN] Great Musician points from tier 3 Gov't Plaza building. +2 [ICON_GREATSCIENTIST] Great Scientist points and +2 [ICON_GREATENGINEER] Great Engineer points from the first tier of Government Plaza building. +3 for the second tier and +8 for the third tier. [NEWLINE][ICON_BULLET]Bias: Special "King of the North"</Text>
 		</Replace>
 		<!-- = unique building = -->
 		<Replace Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" Language="en_US">
@@ -4884,4 +4884,5 @@
 
 	</LocalizedText>
 </GameData>
+
 
