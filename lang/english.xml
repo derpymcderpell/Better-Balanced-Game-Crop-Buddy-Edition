@@ -337,7 +337,7 @@
 		</Replace>
 		<!-- = leader ability (Wu Zetian) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="en_US">
-			<Text>Receive a free spy (and extra spy capacity) after discovering Civil Service. Can purchase Spies with [ICON_FAITH] Faith. All offensive Spies operate at 1 level higher. Whenever an offensive spy mission is successful, you also gain 100% of the [ICON_SCIENCE] Science, [ICON_CULTURE] Culture, and [ICON_FAITH] Faith that the targeted city earned that turn.[NEWLINE][NEWLINE]Land units within 3 tiles of a Recon unit receive +3 [ICON_STRENGTH] Combat Strength.[NEWLINE][NEWLINE]When completing a Government Plaza building or Diplomatic Quarter building receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.</Text>
+			<Text>Receive a free spy (and extra spy capacity) after discovering Civil Service. Can purchase Spies with [ICON_FAITH] Faith. All offensive Spies operate at 1 level higher. Whenever an offensive spy mission is successful, you also gain 100% of the [ICON_SCIENCE] Science, [ICON_CULTURE] Culture, and [ICON_FAITH] Faith that the targeted city earned that turn.[NEWLINE][NEWLINE]Land units within 3 tiles of a Recon unit receive +3 [ICON_STRENGTH] Combat Strength.[NEWLINE][NEWLINE]When completing a Government Plaza building or Diplomatic Quarter building receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.[NEWLINE][NEWLINE]+2 [ICON_SIGHT] Sight on Spies and Traders. +1 [ICON_SIGHT] on Recon units at Machinery.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_WUZETIAN_COMBAT_FROM_RECON_ABILITY_PREVIEW" Language="en_US">
 			<Text>Nearby Recon unit: +3</Text>
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
