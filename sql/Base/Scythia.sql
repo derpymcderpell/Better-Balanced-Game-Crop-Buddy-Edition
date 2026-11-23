@@ -20,7 +20,7 @@ INSERT OR IGNORE INTO Improvement_ValidTerrains (ImprovementType, TerrainType) V
 	('IMPROVEMENT_KURGAN', 'TERRAIN_TUNDRA_HILLS');
 --15/06/23 Kurgan +2 faith base (from +1)
 -- 03/07/24 to +1 again
-UPDATE Improvement_YieldChanges SET YieldChange=1 WHERE ImprovementType='IMPROVEMENT_KURGAN' AND YieldType='YIELD_FAITH';
+UPDATE Improvement_YieldChanges SET YieldChange=2 WHERE ImprovementType='IMPROVEMENT_KURGAN' AND YieldType='YIELD_FAITH';
 
 -- Can now purchase cavalry units with faith
 INSERT OR IGNORE INTO TraitModifiers (TraitType , ModifierId)
@@ -52,7 +52,7 @@ INSERT OR IGNORE INTO TypeTags (Type , Tag) VALUES
 
 -- 30/11/24 combat bonus reduced to +3 base scaling at +5 when reaching medieval era
 -- +3
-UPDATE ModifierArguments SET Value=3 WHERE ModifierId='TOMYRIS_BONUS_VS_WOUNDED_UNITS';
+UPDATE ModifierArguments SET Value=2 WHERE ModifierId='TOMYRIS_BONUS_VS_WOUNDED_UNITS';
 -- INSERT INTO Requirements (RequirementId, RequirementType, Inverse) VALUES
 -- 	('BBG_UTILS_PLAYER_NO_HAS_TECH_STIRRUPS_REQUIREMENT', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY', 1);
 -- INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
@@ -71,7 +71,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectR
 	('BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_MODIFIER', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'BBG_PLAYER_IS_IN_ERA_MEDIEVAL_REQUIREMENTS', 'REQUIREMENTS_OPPONENT_IS_WOUNDED');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 	('BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_GIVER', 'AbilityType', 'BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_MODIFIER'),
-	('BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_MODIFIER', 'Amount', 5);
+	('BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_MODIFIER', 'Amount', 4);
 
 INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
 	('ABILITY_TOMYRIS_BONUS_VS_WOUNDED_UNITS', 'BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_MEDIEVAL_MODIFIER');
