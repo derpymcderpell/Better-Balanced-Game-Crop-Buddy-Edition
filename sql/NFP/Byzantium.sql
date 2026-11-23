@@ -2,7 +2,7 @@
 -- Byzantium
 --==================
 -- reduce combat bonus for holy cities
-UPDATE ModifierArguments SET Value='2' WHERE ModifierId='BYZANTIUM_COMBAT_HOLY_CITIES' AND Name='Amount';
+UPDATE ModifierArguments SET Value='1' WHERE ModifierId='BYZANTIUM_COMBAT_HOLY_CITIES' AND Name='Amount';
 -- remove dromon combat bonus
 -- 25/10/23 remove dromon combat bonus again
 -- nerf dromon cs bonus to +5
