@@ -600,11 +600,11 @@
 		</Replace>
 		<!-- = leader ability (Magnificence) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_DESCRIPTION" Language="en_US">
-			<Text>Improved resources provide additional bonus yields:[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture at Craftsmanship[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture if adjacent to a Theater Square.[NEWLINE][ICON_BULLET]+1 [ICON_AMENITIES] Amenity if adjacent to a Chateau(luxury resources only)[NEWLINE][NEWLINE]Happy cities gain +5% Culture, doubled if the city is ecstatic, tripled if the city is euphoric (+8 amenity). Cities with a Theater Square gain these great people based on happiness level: +1 [ICON_GreatWriter] Great Writer point if happy, +1 [ICON_GreatArtist] Great Artist point if ecstatic, and +1 [ICON_GreatMusician] Great Musician point if euphoric.[NEWLINE][NEWLINE]May initiate the Court Festival unique project in cities with a Theater Square.</Text>
+			<Text>Improved resources provide additional bonus yields:[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture at Craftsmanship[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture if adjacent to a Theater Square.[NEWLINE][ICON_BULLET]+1 [ICON_AMENITIES] Amenity if adjacent to a Chateau(luxury resources only)[NEWLINE][NEWLINE]Happy cities gain +5% Culture, doubled if the city is ecstatic, tripled if the city is euphoric (+8 amenity). Cities with a Theater Square gain these great people based on happiness level: +1 [ICON_GreatWriter] Great Writer point if happy and +1 [ICON_GreatArtist] Great Artist point if ecstatic.[NEWLINE][NEWLINE]May initiate the Court Festival unique project in cities with a Theater Square.</Text>
 		</Replace>
 		<!-- = unique project (Magnificence) = -->
 		<Replace Tag="LOC_PROJECT_ECOURT_FESTIVAL_DESCRIPTION" Language="en_US">
-			<Text>France unique project when Catherine Magnificence is their leader. Available with Medieval Faires to any city with a Theater Square.[NEWLINE][NEWLINE]When complete, this project awards +3% [ICON_TOURISM] Tourism across your empire.</Text>
+			<Text>France unique project when Catherine Magnificence is their leader. Available with Medieval Faires to any city with a Theater Square.[NEWLINE][NEWLINE]When complete, this project awards +5% [ICON_TOURISM] Tourism across your empire.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_FRENCH_GARDE_IMPERIALE_DESCRIPTION" Language="en_US">
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
