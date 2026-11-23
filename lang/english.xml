@@ -457,15 +457,15 @@
 		</Replace>
 		<!-- = leader ability (Egypt, Cleopatra Egyptian) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TRADEROUTE] Trade Routes to other civilizations provide +6 [ICON_GOLD] Gold for Egypt. Other civilizations' [ICON_TRADEROUTE] Trade Routes to Egypt provide +1 [ICON_FOOD] Food for them and +2 [ICON_GOLD] Gold for Egypt, rising to +2 [ICON_FOOD] Food and +5 [ICON_GOLD] for cities with a Wonder. Trading with Allies earns twice as many bonus Alliance Points.[NEWLINE][NEWLINE] -2 [ICON_FOOD] Food and [ICON_PRODUCTION] on domestic [ICON_TRADEROUTE] Trade Routes. [NEWLINE][NEWLINE] +15% [ICON_PRODUCTION] production toward [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs and [ICON_DISTRICT_WONDER] Wonders when the city is settled on a river.</Text>
+			<Text>Your [ICON_TRADEROUTE] Trade Routes to other civilizations provide +6 [ICON_GOLD] Gold for Egypt. Other civilizations' [ICON_TRADEROUTE] Trade Routes to Egypt provide +1 [ICON_FOOD] Food for them and +2 [ICON_GOLD] Gold for Egypt, rising to +2 [ICON_FOOD] Food and +5 [ICON_GOLD] for cities with a Wonder. Trading with Allies earns twice as many bonus Alliance Points.[NEWLINE][NEWLINE] -2 [ICON_FOOD] Food and [ICON_PRODUCTION] Production on domestic [ICON_TRADEROUTE] Trade Routes. [NEWLINE][NEWLINE] +15% [ICON_PRODUCTION] production toward [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs and [ICON_DISTRICT_WONDER] Wonders when the city is settled on a river.</Text>
 		</Replace>
 		<!-- = leader ability (Ramses II) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
-			<Text>Gain [ICON_CULTURE] Culture equal to 10% of the construction cost when finishing Buildings, doubled for cities with a wonder and 25% [ICON_CULTURE] Culture when completing Wonders. Holy Sites are granted +1 [ICON_PRODUCTION] Production if built adjacent to a River.[NEWLINE][NEWLINE]+15% production bonus for Holy Sites and Industrial Zones when the city is settled on a river.</Text>
+			<Text>Gain [ICON_CULTURE] Culture equal to 10% of the construction cost when finishing Buildings and 15% [ICON_CULTURE] Culture when completing [ICON_DISTRICT_WONDER] Wonders. [NEWLINE][NEWLINE]Holy Sites are granted +2 [ICON_PRODUCTION] Production if built adjacent to a River.[NEWLINE][NEWLINE]+15% production bonus towards [ICON_DISTRICT_HOLY SITE] Holy Sites and 20% towards [ICON_DISTRICT_INDUSTRIAL_ZONES] Industrial Zones when the city is settled on a river. These Districts grant each other a major adjacency bonus.</Text>
 		</Replace>
 		<!-- = leader ability (Egypt, Cleopatra Ptolemaic) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="en_US">
-			<Text>Military units can cross rivers without movement or combat penalty starting in the classical era.[NEWLINE][NEWLINE]+15% production bonus for Campuses and Encampments when the city is settled on a river. Campus and Encampments receive major [ICON_SCIENCE] Science adjacency from rivers.</Text>
+			<Text>Military units can cross rivers without movement or combat penalty starting in the Classical Era.[NEWLINE][NEWLINE]+15% production bonus for Campuses and Encampments when the city is settled on a river. Campus and Encampments receive major [ICON_SCIENCE] Science adjacency from rivers.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_PTOLE_BONUSES_ON_FLOODPLAIN_ABILITY_DESC" Language="en_US">
 			<Text>+5 [ICON_STRENGTH] Combat Strength when fighting on floodplains.</Text>
@@ -501,7 +501,7 @@
 		<!-- == ENGLAND == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="en_US">
-			<Text>[ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_COAL] Coal Mines accumulate 2 more resources per turn. Harbor buildings increase Strategic Resource Stockpiles by +10 (on Standard speed). +100% [ICON_PRODUCTION] Production towards Military Engineers. Military Engineers receive +2 [ICON_CHARGES] charges. Buildings that provide additional yields when [ICON_POWER] Powered receive +3 of that yield. [NEWLINE][ICON_BULLET]Bias: T1 Coast, T5 Iron and Coal.</Text>
+			<Text>[ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_COAL] Coal Mines accumulate 2 more resources per turn. Harbor buildings increase Strategic Resource Stockpiles by +10 (on Standard speed). +100% [ICON_PRODUCTION] Production towards Military Engineers. Military Engineers receive +2 [ICON_CHARGES] charges. [NEWLINE][ICON_BULLET]Bias: T1 Coast, T5 Iron and Coal.</Text>
 		</Replace>
 		<!-- = leader ability (Victoria - Age of Empire) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_DESCRIPTION" Language="en_US">
@@ -515,7 +515,7 @@
 		</Row>
 		<!-- = leader ability (Victoria - Age of Steam) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="en_US">
-			<Text>+5% [ICON_PRODUCTION] Production in Cities for each Factory and Power Plant in that city.Industrial Zones receive standard adjacency from Royal Navy Dockyards. +20% [ICON_PRODUCTION] Production towards Industrial Zone buildings.[NEWLINE]+1 [ICON_PRODUCTION] Production to all improved Strategic Resources.[NEWLINE]Lighthouse grants +1 [ICON_GREATENGINEER] Great Engineer point per turn.</Text>
+			<Text>+5% [ICON_PRODUCTION] Production in Cities for each Factory and Power Plant in that city. Industrial Zones receive standard adjacency from Royal Navy Dockyards. Buildings that provide additional yields when [ICON_POWER] Powered receive +3 of that yield.[NEWLINE]+1 [ICON_PRODUCTION] Production to all improved Strategic Resources.[NEWLINE]Lighthouse grants +1 [ICON_GREATENGINEER] Great Engineer point per turn.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_AOS_ADJENCY_IZ_RND_DESC" Language="en_US">
 			<Text>+{1_num} [ICON_PRODUCTION] Production per adjacent Royal Navy Dockyard.</Text>
@@ -4884,3 +4884,4 @@
 
 	</LocalizedText>
 </GameData>
+
