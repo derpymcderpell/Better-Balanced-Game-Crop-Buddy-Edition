@@ -1246,7 +1246,7 @@
 		<!-- == NUBIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_DESCRIPTION" Language="en_US">
-			<Text>+30% [ICON_PRODUCTION] Production toward Ranged and Naval Ranged units. All Ranged and Naval Ranged units gain +50% combat experience. Mines over strategic resources provide +1 [ICON_PRODUCTION]. Mines over bonus and luxury resources provide +2 [ICON_GOLD] Gold.[NEWLINE][ICON_BULLET]Bias: T2 Plains, T5 Minable Resources.</Text>
+			<Text>+30% [ICON_PRODUCTION] Production toward Ranged and Naval Ranged units. All Ranged and Naval Ranged units gain +50% combat experience. Mines over strategic resources provide +1 [ICON_PRODUCTION]. Mines over bonus and luxury resources provide +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]All [ICON_DISTRICT] Districts except for the Industrial Zone receive no adjacency bonuses.[NEWLINE][NEWLINE][NEWLINE][ICON_BULLET]Bias: T2 Plains, T5 Minable Resources.</Text>
 		</Replace>
 		<!-- = leader ability = --> <!-- production icon -->
 		<Replace Tag="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION" Language="en_US">
@@ -1254,7 +1254,7 @@
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="en_US">
-			<Text>Nubian unique builder improvement unlocked at Craftsmanship and limited to 1 per city. Nubian Districts receive standard adjacency from Nubian Pyramids. Can be built on any flat tile or desert hill. Cannot be built next to another Nubian Pyramid.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food and +2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]Receives additional yields from adjacent districts:[NEWLINE]+1 [ICON_FOOD] Food for the City Center.[NEWLINE]+1 [ICON_SCIENCE] Science per adjacent Campus.[NEWLINE]+1 [ICON_CULTURE] Culture per adjacent Theater Square.[NEWLINE]+1 [ICON_FAITH] Faith per adjacent Holy Site.[NEWLINE]+1 [ICON_GOLD] Gold per adjacent Commercial Hub and Harbor.[NEWLINE]+1 [ICON_PRODUCTION] Production per adjacent Industrial Zone, Encampment, and Aerodrome.[NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold per adjacent Government Plaza and Diplomatic Quarter.</Text>
+			<Text>Nubian unique builder improvement unlocked at Craftsmanship. Can be built on any flat tile or desert hill. Cannot be built next to another Nubian Pyramid.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food and +2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]Receives additional yields from adjacent districts:[NEWLINE]+1 [ICON_FOOD] Food for the City Center.[NEWLINE]+3 [ICON_SCIENCE] Science per adjacent Campus.[NEWLINE]+3 [ICON_CULTURE] Culture per adjacent Theater Square.[NEWLINE]+2 [ICON_FAITH] Faith per adjacent Holy Site.[NEWLINE]+4 [ICON_GOLD] Gold per adjacent Commercial Hub and Harbor.[NEWLINE]+2 [ICON_PRODUCTION] Production per adjacent Industrial Zone, Encampment, and Aerodrome.[NEWLINE]+2 [ICON_FOOD] Food per adjacent Aqueduct.[NEWLINE]+2 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +3 [ICON_GOLD] Gold per adjacent Government Plaza and Diplomatic Quarter.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_PYRAMID_DISTRICT_SCIENCE_DESC" Language="en_US">
 			<Text>+1 [ICON_SCIENCE] Science from adjacent pyramid</Text>
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
