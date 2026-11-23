@@ -232,13 +232,13 @@
 		<!-- == BYZANTIUM == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="en_US">
-			<Text>Units receive +2 [ICON_STRENGTH] Combat Strength or [ICON_RELIGION] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district.[NEWLINE][NEWLINE]When defeating a unit, spreads Byzantium's Religion pressure (based on melee [ICON_STRENGTH] Combat Strength of the defeated unit) within 5 tiles.[NEWLINE][ICON_BULLET]Bias: None.</Text>
+			<Text>Units receive +1 [ICON_STRENGTH] Combat Strength or [ICON_RELIGION] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district.[NEWLINE][NEWLINE]When defeating a unit, spreads Byzantium's Religion pressure (based on melee [ICON_STRENGTH] Combat Strength of the defeated unit) within 5 tiles.[NEWLINE][ICON_BULLET]Bias: None.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION" Language="en_US">
-			<Text>Receive +2 [ICON_STRENGTH] Combat Strength for each Holy City converted to your Religion and Byzantium's Religion is spread to nearby cities when a major civilization's unit is defeated (Taxis)</Text>
+			<Text>Receive +1 [ICON_STRENGTH] Combat Strength for each Holy City converted to your Religion and Byzantium's Religion is spread to nearby cities when a major civilization's unit is defeated (Taxis)</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_BYZANTIUM_RELIGIOUS_UNITS_DESCRIPTION" Language="en_US">
-			<Text>Receive +2 [ICON_RELIGION] Religious Strength for each Holy City converted to your Religion.</Text>
+			<Text>Receive +1 [ICON_RELIGION] Religious Strength for each Holy City converted to your Religion.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HIPPODROME_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Byzantium. Replaces the Entertainment Complex district, provides +3 [ICON_AMENITIES] Amenities, and is cheaper to build. When buildings in this district are constructed, receive a Heavy Cavalry unit.</Text>
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
