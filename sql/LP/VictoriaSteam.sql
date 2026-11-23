@@ -1,9 +1,9 @@
 
 -- 04/07/24 England rework, remove the prod bonus on strategics
 -- 07/08/26 rework, revert prod
-UPDATE ModifierArguments SET Value='1' WHERE ModifierId='VICTORIA_STRATEGIC_RESOURCE' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='VICTORIA_STRATEGIC_RESOURCE' AND Name='Amount';
 -- -- 15/06/23 bonus production only working on improved resources
-UPDATE Modifiers SET SubjectRequirementSetId='PLOT_HAS_STRATEGIC_IMPROVED_REQUIREMENTS' WHERE ModifierId='VICTORIA_STRATEGIC_RESOURCE';
+--UPDATE Modifiers SET SubjectRequirementSetId='PLOT_HAS_STRATEGIC_IMPROVED_REQUIREMENTS' WHERE ModifierId='VICTORIA_STRATEGIC_RESOURCE';
 
 -- DELETE FROM TraitModifiers WHERE ModifierId='VICTORIA_STRATEGIC_RESOURCE';
 
@@ -14,8 +14,8 @@ DELETE FROM Modifiers WHERE ModifierId='VICTORIA_PRODUCTION_WORKSHOP';
 UPDATE ModifierArguments SET Value=5 WHERE Name='Amount' AND ModifierId IN ('VICTORIA_PRODUCTION_FACTORY', 'VICTORIA_PRODUCTION_POWER_PLANT');
 
 -- 04/07/24 England rework : get the % prod toward IZ building from England
-INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-	('TRAIT_LEADER_VICTORIA_ALT', 'TRAIT_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION');
+--INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+--	('TRAIT_LEADER_VICTORIA_ALT', 'TRAIT_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION');
 
 -- 04/07/24 AoS RND give +2 adjency to IZ
 -- 04/08/24 Reduced to +1
@@ -44,4 +44,4 @@ INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
 
 -- 13/04/25 powered building bonus moved from England bonus to Steam
 -- 07/08/26 revert
--- UPDATE TraitModifiers SET TraitType='TRAIT_LEADER_VICTORIA_ALT' WHERE ModifierId LIKE 'TRAIT_POWERED_BUILDINGS_MORE_%';
+UPDATE TraitModifiers SET TraitType='TRAIT_LEADER_VICTORIA_ALT' WHERE ModifierId LIKE 'TRAIT_POWERED_BUILDINGS_MORE_%';
