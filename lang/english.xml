@@ -1480,7 +1480,7 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION" Language="en_US">
-			<Text>All units receive +3 [ICON_STRENGTH] Combat Strength when attacking wounded units, increasing to +5 [ICON_STRENGTH] Combat Strength after you enter the Medieval Era. When they eliminate a unit, they heal up to 30 hit points.</Text>
+			<Text>All units receive +2 [ICON_STRENGTH] Combat Strength when attacking wounded units, increasing to +4 [ICON_STRENGTH] Combat Strength after you enter the Medieval Era. When they eliminate a unit, they heal up to 30 hit points.</Text>
 		</Replace>
 		<!-- = unit bonus after stirrups = -->		
 		<Row Tag="LOC_BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_STIRRUPS_MODIFIER_DESC" Language="en_US">
@@ -1492,7 +1492,7 @@
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US">
-			<Text>Scythian unique builder improvement unlocked with Animal Husbandry.[NEWLINE][NEWLINE]+1 [ICON_FAITH] Faith and +3 [ICON_GOLD] Gold.[NEWLINE]+1 [ICON_FAITH] Faith for each adjacent Pasture, increasing to +2 [ICON_FAITH] Faith for each adjacent Pasture with Stirrups.[NEWLINE]+1 [ICON_PRODUCTION] Production for each adjacent Pasture.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
+			<Text>Scythian unique builder improvement unlocked with Animal Husbandry.[NEWLINE][NEWLINE]+2 [ICON_FAITH] Faith and +3 [ICON_GOLD] Gold.[NEWLINE]+1 [ICON_FAITH] Faith for each adjacent Pasture, increasing to +2 [ICON_FAITH] Faith for each adjacent Pasture with Stirrups.[NEWLINE]+1 [ICON_PRODUCTION] Production for each adjacent Pasture.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
 		</Replace>
 		
 
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
