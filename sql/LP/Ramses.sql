@@ -1,5 +1,5 @@
 -- 16/04/23 Ramses wonder culture % from 30 to 25 (also reduces buildings per 5)
-UPDATE ModifierArguments SET Value=25 WHERE ModifierId='RAMSES_CULTURE_POSITIVE_WONDERS_BUILDINGS' AND Name='BuildingProductionPercent';
+UPDATE ModifierArguments SET Value=10 WHERE ModifierId='RAMSES_CULTURE_POSITIVE_WONDERS_BUILDINGS' AND Name='BuildingProductionPercent';
 
 -- 26/02/25 Ramses gets doubled culture (10% to 20%) on buildings if the city has a wonder
 INSERT INTO Requirements (RequirementId, RequirementType) VALUES
@@ -12,7 +12,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
     ('BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER', 'MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_BUILDING_COST', 'BBG_CITY_HAS_WONDER_REQSET');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER', 'YieldType', 'YIELD_CULTURE'),
-    ('BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER', 'BuildingProductionPercent', 10),
+    ('BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER', 'BuildingProductionPercent', 0),
     ('BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER', 'IncludeWonder', 0);
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RAMSES', 'BBG_RAMSES_CULTURE_POSITIVE_BUILDINGS_IF_WONDER');
@@ -76,7 +76,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
     ('BBG_PTOLE_FASTER_HS_RIVER', 'MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION', 'PLOT_ADJACENT_TO_RIVER_REQUIREMENTS');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_PTOLE_FASTER_IZ_RIVER', 'DistrictType', 'DISTRICT_INDUSTRIAL_ZONE'),
-    ('BBG_PTOLE_FASTER_IZ_RIVER', 'Amount', 15),
+    ('BBG_PTOLE_FASTER_IZ_RIVER', 'Amount', 20),
     ('BBG_PTOLE_FASTER_HS_RIVER', 'DistrictType', 'DISTRICT_HOLY_SITE'),
     ('BBG_PTOLE_FASTER_HS_RIVER', 'Amount', 15);
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
@@ -87,10 +87,29 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'MODIFIER_PLAYER_CITIES_RIVER_ADJACENCY');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-    ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Amount', 1),
+    ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Amount', 2),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Description', 'LOC_DISTRICT_RIVER_FAITH'),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'DistrictType', 'DISTRICT_HOLY_SITE'),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'YieldType', 'YIELD_PRODUCTION');
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RAMSES', 'BBG_RAMSES_RIVER_PRODUCTION_HS');
 
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
+    ('BBG_RAMSES_HS_IZ_FAITH', 'BBG_RAMSES_HS_IZ_FAITH_DESC', 'YIELD_FAITH', 2, 'DISTRICT_INDUSTRIAL_ZONE');
+INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
+    ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_HS_IZ_FAITH');
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
+   SELECT TraitType, 'BBG_RAMSES_HS_IZ_FAITH' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_EGYPT' GROUP BY CivilizationType;
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
+	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_HS_IZ_FAITH'),
+	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_HS_IZ_FAITH');
+
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
+    ('BBG_RAMSES_IZ_HS_PROD', 'BBG_RAMSES_IZ_HS_PROD_DESC', 'YIELD_PRODUCTION', 2, 'DISTRICT_HOLY_SITE');
+INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
+    ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_IZ_HS_PROD');
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
+   SELECT TraitType, 'BBG_RAMSES_IZ_HS_PROD' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_EGYPT' GROUP BY CivilizationType;
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
+	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_IZ_HS_PROD'),
+	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_IZ_HS_PROD');
