@@ -922,7 +922,7 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Holy Sites grant +1 [ICON_FOOD] Food and +2 [ICON_HOUSING] Housing if built adjacent to a River, and trigger a Culture Bomb when completed.</Text>
+			<Text>Holy Sites grant +1 [ICON_FOOD] Food and +2 [ICON_HOUSING] Housing if built adjacent to a River.</Text>
 		</Replace>
 		<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="en_US">
 			<Text>+{1_num} [ICON_FAITH] Faith from the river.</Text>
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
