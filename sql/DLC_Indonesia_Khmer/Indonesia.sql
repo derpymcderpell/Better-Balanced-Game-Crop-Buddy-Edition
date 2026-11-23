@@ -11,9 +11,14 @@ UPDATE Units SET Cost=345, PrereqCivic='CIVIC_EXPLORATION' WHERE UnitType='UNIT_
 INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement) VALUES
     ('BBG_KampungFaithFishing', 'Placeholder', 'YIELD_FAITH', 1, 1, 'IMPROVEMENT_FISHING_BOATS');
 INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VALUES
-    ('IMPROVEMENT_KAMPUNG', 'YIELD_FAITH', 0);
+    ('IMPROVEMENT_KAMPUNG', 'YIELD_FAITH', 1);
 INSERT INTO Improvement_Adjacencies(ImprovementType, YieldChangeId) VALUES
     ('IMPROVEMENT_KAMPUNG', 'BBG_KampungFaithFishing');
+
+INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement) VALUES
+    ('BBG_KampungCultureFishing', 'Placeholder', 'YIELD_CULTURE', 1, 1, 'IMPROVEMENT_FISHING_BOATS');
+INSERT INTO Improvement_Adjacencies(ImprovementType, YieldChangeId) VALUES
+    ('IMPROVEMENT_KAMPUNG', 'BBG_KampungCultureFishing');
 
 -- 29/03/25 Faith on districts works on all specialty district and city center
 -- 20/06/25 +1 base doubled when Shipbuilding is unlocked (city center always give 2)
@@ -63,12 +68,12 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 
 
 -- 29/03/25 Can buy encampment and campus buildings
-INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
-     ('BBG_INDONESIA_FAITH_HARBOR_BUILDING', 'MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-     ('BBG_INDONESIA_FAITH_HARBOR_BUILDING', 'DistrictType', 'DISTRICT_HARBOR');
- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-     ('TRAIT_LEADER_EXALTED_GODDESS', 'BBG_INDONESIA_FAITH_HARBOR_BUILDING');
+--INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+--     ('BBG_INDONESIA_FAITH_HARBOR_BUILDING', 'MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE');
+--INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+--     ('BBG_INDONESIA_FAITH_HARBOR_BUILDING', 'DistrictType', 'DISTRICT_HARBOR');
+-- INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+--     ('TRAIT_LEADER_EXALTED_GODDESS', 'BBG_INDONESIA_FAITH_HARBOR_BUILDING');
 
 
 --14/04/26 Fix bug by firaxis : unit embark for free if you control a religious unit
