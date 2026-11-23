@@ -2258,7 +2258,7 @@
 			<Text>+2 [ICON_GreatProphet] Great Prophet points if this city has a Holy Site. +2 [ICON_FAITH] Faith per turn for cities with a Holy Site within 6 tiles.</Text>
 		</Replace>	
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT_DESCRIPTION" Language="en_US">
-			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 20% of this city's faith output.</Text>
+			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 15% of this city's faith output.</Text>
 		</Replace>		
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION" Language="en_US">
 			<Text>Doubles the [ICON_TOURISM] Tourism from Great Works of Writing, Art, and Music in the city.</Text>
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
