@@ -868,11 +868,11 @@
 		</Replace>
 		<!-- = leader ability (Gitarja) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION" Language="en_US">
-			<Text>Naval units and Harbor buildings can be purchased with [ICON_FAITH] Faith. Religious units pay no movement to embark or disembark.[NEWLINE][NEWLINE]After unlocking Sailing, City Centers next to Coast and Lake tiles provide +2 [ICON_FAITH] Faith and other Districts next to Coast and Lake tiles provide +1 [ICON_FAITH] Faith, increasing to +2 [ICON_FAITH] Faith when Shipbuilding is unlocked. </Text>
+			<Text>Naval units can be purchased with [ICON_FAITH] Faith. Religious units pay no movement to embark or disembark.[NEWLINE][NEWLINE]After unlocking Sailing, City Centers next to Coast and Lake tiles provide +2 [ICON_FAITH] Faith and other Districts next to Coast and Lake tiles provide +1 [ICON_FAITH] Faith, increasing to +2 [ICON_FAITH] Faith when Shipbuilding is unlocked. </Text>
 		</Replace>
 		<!-- = unique improvement (Kampung) = -->
 		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="en_US">
-			<Text>Indonesian unique builder improvement unlocked at Shipbuilding. Must be placed on a Coast or Lake tile adjacent to a sea resource.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_FAITH] Faith for each adjacent Fishing Boat.[NEWLINE]+1 [ICON_PRODUCTION] Production with Civil Engineering.[NEWLINE]+1 [ICON_HOUSING] Housing with Mass Production.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FOOD] Food after researching Flight.</Text>
+			<Text>Indonesian unique builder improvement unlocked at Shipbuilding. Must be placed on a Coast or Lake tile adjacent to a sea resource.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production, +1 [ICON_FAITH] FAITH, and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_FAITH] Faith for each adjacent Fishing Boat.[NEWLINE]+1 [ICON_PRODUCTION] Production with Civil Engineering.[NEWLINE]+1 [ICON_HOUSING] Housing with Mass Production.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FOOD] Food after researching Flight.</Text>
 		</Replace>
 		<!-- = unique unit (Jong) = -->
 		<Replace Tag="LOC_UNIT_INDONESIAN_JONG_DESCRIPTION" Language="en_US">
@@ -1740,10 +1740,10 @@
 			<Text>Dzong</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SUK_DZONG_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Tibet that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Occupying units receives +5 [ICON_STRENGTH] Defensive Combat Strength.[NEWLINE]Buildings in the Dzong are 20% cheaper to purchase with [ICON_GOLD] Gold and [ICON_FAITH] Faith.</Text>
+			<Text>A district unique to Tibet that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Occupying units receives +5 [ICON_STRENGTH] Defensive Combat Strength.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SUK_DZONG_DESCRIPTION_XP2" Language="en_US">
-			<Text>A district unique to Tibet that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Occupying units receives +5 [ICON_STRENGTH] Defensive Combat Strength.[NEWLINE]Buildings in the Dzong are 10% cheaper to purchase with [ICON_GOLD] Gold and [ICON_FAITH] Faith.</Text>
+			<Text>A district unique to Tibet that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Occupying units receives +5 [ICON_STRENGTH] Defensive Combat Strength.</Text>
 		</Replace>
 
 
@@ -4887,6 +4887,7 @@
 
 	</LocalizedText>
 </GameData>
+
 
 
 
