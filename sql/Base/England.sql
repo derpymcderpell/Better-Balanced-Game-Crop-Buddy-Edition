@@ -77,8 +77,8 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 DELETE FROM CivilizationTraits WHERE CivilizationType='CIVILIZATION_ENGLAND' AND TraitType='TRAIT_CIVILIZATION_UNIT_ENGLISH_SEADOG';
 
 -- 08/08/ 26 powered building bonus moved moved back to England from Steam (sea Steam file) and nerfed
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_CULTURE' AND Name='Amount';
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_GOLD' AND Name='Amount';
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION' AND Name='Amount';
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_SCIENCE' AND Name='Amount';
-UPDATE ModifierArguments SET Value='3' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_FOOD' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_CULTURE' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_GOLD' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_SCIENCE' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='TRAIT_POWERED_BUILDINGS_MORE_FOOD' AND Name='Amount';
