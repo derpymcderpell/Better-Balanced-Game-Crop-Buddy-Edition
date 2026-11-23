@@ -5,6 +5,8 @@
 -- Create new district traderoute yield
 INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination) VALUES
     ('DISTRICT_AERODROME', 'YIELD_PRODUCTION', 0.0, 1.0, 1.0);
+INSERT INTO District_TradeRouteYields(DistrictType, YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination) VALUES
+    ('DISTRICT_PRESERVE', 'YIELD_FOOD', 0.0, 0.0, 1.0);
 
 -- Preserve give ability to plant wood.
 -- INSERT INTO Modifiers(ModifierId, ModifierType) VALUES
