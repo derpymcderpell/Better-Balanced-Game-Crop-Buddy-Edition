@@ -26,7 +26,7 @@ DELETE FROM District_ValidTerrains WHERE DistrictType='DISTRICT_SUK_DZONG';
 UPDATE Districts SET Appeal=1 WHERE DistrictType='DISTRICT_SUK_DZONG';
 
 -- 30/09/25: Dzong buildings now only have 10% discount with faith/gold (instead of 20%)
-UPDATE ModifierArguments SET Value=10 WHERE Name='Amount' AND ModifierId LIKE 'SUK_DZONG_BUILDING_%';
+UPDATE ModifierArguments SET Value=0 WHERE Name='Amount' AND ModifierId LIKE 'SUK_DZONG_BUILDING_%';
 
 -- ==========================================================
 -- =                        RTA PA                          =
