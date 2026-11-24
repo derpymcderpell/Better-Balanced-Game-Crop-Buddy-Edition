@@ -47,6 +47,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 
 -- +4 gold, +2 Culture (from prod) per Great Work of Writing.
 UPDATE ModifierArguments SET VALUE='YIELD_CULTURE' WHERE ModifierId='SUNDIATA_KEITA_GREAT_WORK_PRODUCTION_WRITING' AND Name='YieldType';
+UPDATE ModifierArguments SET VALUE='1' WHERE ModifierId='SUNDIATA_KEITA_GREAT_WORK_PRODUCTION_WRITING' AND Name='Amount';
 
 -- 30% Gold discount on Great People patronage
 UPDATE ModifierArguments SET VALUE=30 WHERE ModifierId='SUNDIATA_KEITA_PURCHASE_GREAT_PEOPLE' AND Name='Amount';
