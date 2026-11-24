@@ -67,8 +67,8 @@ INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId) VALUES
 INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement, OtherDistrictAdjacent, PreReqCivic) VALUES
 	('BBG_Ziggurat_Faith_Farm', 'Placeholder', 'YIELD_FAITH', 1, 2, 'IMPROVEMENT_FARM', 0,'CIVIC_EARLY_EMPIRE'),
     ('BBG_Ziggurat_Faith_District', 'Placeholder', 'YIELD_FAITH', 1, 1, NULL, 1,'CIVIC_EARLY_EMPIRE'),
-	('BBG_Ziggurat_Faith_Farm', 'Placeholder', 'YIELD_SCIENCE', 1, 2, 'IMPROVEMENT_FARM', 0,'CIVIC_EARLY_EMPIRE'),
-    ('BBG_Ziggurat_Faith_District', 'Placeholder', 'YIELD_SCIENCE', 1, 1, NULL, 1,'CIVIC_EARLY_EMPIRE');
+	('BBG_Ziggurat_Science_Farm', 'Placeholder', 'YIELD_SCIENCE', 1, 2, 'IMPROVEMENT_FARM', 0,'CIVIC_EARLY_EMPIRE'),
+    ('BBG_Ziggurat_Science_District', 'Placeholder', 'YIELD_SCIENCE', 1, 1, NULL, 1,'CIVIC_EARLY_EMPIRE');
 
 
 -- Sumerian War Carts are nerfed to 26 (BASE = 30)
