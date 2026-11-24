@@ -890,7 +890,7 @@
 		</Row> -->
 		<!-- = leader ability (Hojo Tokimune) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_DIVINE_WIND_DESCRIPTION" Language="en_US">
-			<Text>Land units receive +3 [ICON_STRENGTH] Combat Strength in land tiles adjacent to Coast; naval units receive +3 [ICON_STRENGTH] Combat Strength in shallow water tiles.[NEWLINE][NEWLINE]+100% [ICON_PRODUCTION] Production to Theater Square, Holy Site, and Encampment districts.</Text>
+			<Text>Land units receive +3 [ICON_STRENGTH] Combat Strength in land tiles adjacent to Coast; naval units receive +3 [ICON_STRENGTH] Combat Strength in shallow water tiles.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production to Theater Square, Holy Site, and Encampment districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>+100% [ICON_PRODUCTION] Production to Theater Square, Holy Site, and Encampment districts.[NEWLINE]Commercial Hubs and Harbors receive standard adjacency bonus for being adjacent to another [ICON_DISTRICT] district.[NEWLINE][NEWLINE]Land units receive +3 [ICON_STRENGTH] Combat Strength in land tiles adjacent to Coast; naval units receive +3 [ICON_STRENGTH] Combat Strength in shallow water tiles. Units do not receive damage from Hurricanes. Civilizations that are at war with Japan receive +100% unit damage from Hurricanes in Japanese territory.</Text>
