@@ -592,7 +592,7 @@
 		<!-- == FRANCE == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="en_US">
-			<Text>Receives a free Spy (and extra spy capacity) at Castles. All spies start with a [ICON_PROMOTION] free promotion. +20% [ICON_PRODUCTION] Production toward Medieval, Renaissance, and Industrial era Wonders. +50% [ICON_TOURISM] Tourism from [ICON_DISTRICT_WONDER] Wonders of any era.[NEWLINE][ICON_BULLET]Bias: T4 Rivers.</Text>
+			<Text>Receives a free Spy (and extra spy capacity) at Castles. All spies start with a [ICON_PROMOTION] free promotion. +20% [ICON_PRODUCTION] Production toward Medieval, Renaissance, and Industrial era [ICON_DISTRICT_WONDERS] Wonders. +25% [ICON_TOURISM] Tourism from [ICON_DISTRICT_WONDER] Wonders of any era.[NEWLINE][ICON_BULLET]Bias: T4 Rivers.</Text>
 		</Replace>
 		<!-- = leader ability (Black Queen) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_FLYING_SQUADRON_DESCRIPTION" Language="en_US">
