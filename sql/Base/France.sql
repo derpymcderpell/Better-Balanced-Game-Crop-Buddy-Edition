@@ -12,7 +12,7 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 	('UNIQUE_LEADER_SPIES_START_PROMOTED','ModifierId','BBG_LEADER_SPIES_START_PROMOTED_CITY_ATTACH');
 
 -- Reduce tourism bonus for wonders
-UPDATE ModifierArguments SET Value='150' WHERE ModifierId='TRAIT_WONDER_DOUBLETOURISM' AND Name='ScalingFactor';
+UPDATE ModifierArguments SET Value='125' WHERE ModifierId='TRAIT_WONDER_DOUBLETOURISM' AND Name='ScalingFactor';
 -- Chateau now gives 1 housing at Feudalism, and ajacent luxes now give stacking Culture in addition to stacking gold
 INSERT OR IGNORE INTO Improvement_YieldChanges (ImprovementType , YieldType , YieldChange) VALUES
     ('IMPROVEMENT_CHATEAU' , 'YIELD_FOOD' , '1');
