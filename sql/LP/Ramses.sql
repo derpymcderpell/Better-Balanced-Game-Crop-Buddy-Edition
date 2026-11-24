@@ -87,7 +87,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'MODIFIER_PLAYER_CITIES_RIVER_ADJACENCY');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-    ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Amount', 2),
+    ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Amount', 1),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'Description', 'LOC_DISTRICT_RIVER_FAITH'),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'DistrictType', 'DISTRICT_HOLY_SITE'),
     ('BBG_RAMSES_RIVER_PRODUCTION_HS', 'YieldType', 'YIELD_PRODUCTION');
@@ -95,7 +95,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RAMSES', 'BBG_RAMSES_RIVER_PRODUCTION_HS');
 
 INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_RAMSES_HS_IZ_FAITH', 'BBG_RAMSES_HS_IZ_FAITH_DESC', 'YIELD_FAITH', 2, 'DISTRICT_INDUSTRIAL_ZONE');
+    ('BBG_RAMSES_HS_IZ_FAITH', 'BBG_RAMSES_HS_IZ_FAITH_DESC', 'YIELD_FAITH', 1, 'DISTRICT_INDUSTRIAL_ZONE');
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
     ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_HS_IZ_FAITH');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
@@ -105,7 +105,7 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_HS_IZ_FAITH');
 
 INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_RAMSES_IZ_HS_PROD', 'BBG_RAMSES_IZ_HS_PROD_DESC', 'YIELD_PRODUCTION', 2, 'DISTRICT_HOLY_SITE');
+    ('BBG_RAMSES_IZ_HS_PROD', 'BBG_RAMSES_IZ_HS_PROD_DESC', 'YIELD_PRODUCTION', 1, 'DISTRICT_HOLY_SITE');
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
     ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_IZ_HS_PROD');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
