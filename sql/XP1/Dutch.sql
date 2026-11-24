@@ -23,6 +23,10 @@ UPDATE StartBiasRivers SET Tier=2 WHERE CivilizationType='CIVILIZATION_NETHERLAN
 UPDATE StartBiasTerrains SET Tier=3 WHERE CivilizationType='CIVILIZATION_NETHERLANDS' AND TerrainType='TERRAIN_COAST';
 
 -- Polder
+INSERT OR IGNORE INTO Improvement_ValidFeatures (ImprovementType , FeatureType)
+	VALUES
+	('IMPROVEMENT_POLDER' , 'FEATURE_REEF');
+
 INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement, AdjacentDistrict, ObsoleteTech) VALUES
     ('BBG_POLDER_PRODUCTION_POLDER', 'Placeholder', 'YIELD_PRODUCTION', 1, 2, 'IMPROVEMENT_POLDER', NULL, 'TECH_REPLACEABLE_PARTS'),
     ('BBG_POLDER_PRODUCTION_HARBOR', 'Placeholder', 'YIELD_PRODUCTION', 1, 1, NULL, 'DISTRICT_HARBOR', NULL);
