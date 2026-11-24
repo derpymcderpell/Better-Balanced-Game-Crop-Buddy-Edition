@@ -75,7 +75,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'GreatWorkObjectType', 'GREATWORKOBJECT_WRITING'),
     ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldType', 'YIELD_FOOD'),
-    ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldChange', 2);
+    ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldChange', 1.5);
 INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_QIN', 'BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD');
 
