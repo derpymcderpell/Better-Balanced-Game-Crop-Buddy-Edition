@@ -872,7 +872,7 @@
 		</Replace>
 		<!-- = unique improvement (Kampung) = -->
 		<Replace Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="en_US">
-			<Text>Indonesian unique builder improvement unlocked at Shipbuilding. Must be placed on a Coast or Lake tile adjacent to a sea resource.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production, +1 [ICON_FAITH] FAITH, and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_FAITH] Faith for each adjacent Fishing Boat.[NEWLINE]+1 [ICON_PRODUCTION] Production with Civil Engineering.[NEWLINE]+1 [ICON_HOUSING] Housing with Mass Production.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FOOD] Food after researching Flight.</Text>
+			<Text>Indonesian unique builder improvement unlocked at Shipbuilding. Must be placed on a Coast or Lake tile adjacent to a sea resource.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production, +1 [ICON_FAITH] Faith, and +1 [ICON_HOUSING] Housing.[NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_FAITH] Faith for each adjacent Fishing Boat.[NEWLINE]+1 [ICON_PRODUCTION] Production with Civil Engineering.[NEWLINE]+1 [ICON_HOUSING] Housing with Mass Production.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FOOD] Food after researching Flight.</Text>
 		</Replace>
 		<!-- = unique unit (Jong) = -->
 		<Replace Tag="LOC_UNIT_INDONESIAN_JONG_DESCRIPTION" Language="en_US">
