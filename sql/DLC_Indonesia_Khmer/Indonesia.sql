@@ -17,6 +17,8 @@ INSERT INTO Improvement_Adjacencies(ImprovementType, YieldChangeId) VALUES
 
 INSERT INTO Adjacency_YieldChanges(ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement) VALUES
     ('BBG_KampungCultureFishing', 'Placeholder', 'YIELD_CULTURE', 1, 1, 'IMPROVEMENT_FISHING_BOATS');
+INSERT INTO Improvement_YieldChanges(ImprovementType, YieldType, YieldChange) VALUES
+    ('IMPROVEMENT_KAMPUNG', 'YIELD_CULTURE', 0);
 INSERT INTO Improvement_Adjacencies(ImprovementType, YieldChangeId) VALUES
     ('IMPROVEMENT_KAMPUNG', 'BBG_KampungCultureFishing');
 
