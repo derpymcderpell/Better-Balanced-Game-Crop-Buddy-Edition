@@ -494,7 +494,7 @@
 		<!-- == ELEANOR (LEADER) == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION" Language="en_US">
-			<Text>+100% [ICON_PRODUCTION] Production to Theater Square Buildings.[NEWLINE][NEWLINE]Great Works receive additional yields based on the districts built in this city (+1 for [ICON_GREATWORK_WRITING] Writings and [ICON_GREATWORK_RELIC] Relics, +2 for [ICON_GREATWORK_LANDSCAPE] Art and [ICON_GREATWORK_ARTIFACT] Artifacts, +4 for [ICON_GREATWORK_MUSIC] Music):[NEWLINE][ICON_SCIENCE] Science for Campus.[NEWLINE][ICON_CULTURE] Culture for Theater Square.[NEWLINE][ICON_GOLD] Gold for Harbor or Commercial Hub.	[NEWLINE][ICON_FAITH] Faith for Holy Site.[NEWLINE][ICON_PRODUCTION] Production for Industrial Zone.[NEWLINE][ICON_FOOD] Food for Neighborhood.[NEWLINE](Can't receive bonus yields on great works from Anshan)[NEWLINE][NEWLINE]Great Works in Eleanor's cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.[NEWLINE][NEWLINE]When Eleanor leads France receive +15% [ICON_PRODUCTION] Production toward Ancient and Classical [ICON_DISTRICT_WONDER] Wonders.</Text>
+			<Text>+100% [ICON_PRODUCTION] Production to Theater Square Buildings.[NEWLINE][NEWLINE]Great Works receive additional yields based on the districts built in this city (+1 for [ICON_GREATWORK_WRITING] Writings and [ICON_GREATWORK_RELIC] Relics, +2 for [ICON_GREATWORK_LANDSCAPE] Art and [ICON_GREATWORK_ARTIFACT] Artifacts, +4 for [ICON_GREATWORK_MUSIC] Music):[NEWLINE][ICON_SCIENCE] Science for Campus.[NEWLINE][ICON_CULTURE] Culture for Theater Square.[NEWLINE][ICON_GOLD] Gold for Harbor or Commercial Hub.	[NEWLINE][ICON_FAITH] Faith for Holy Site.[NEWLINE][ICON_PRODUCTION] Production for Industrial Zone.[NEWLINE][ICON_FOOD] Food for Neighborhood.[NEWLINE](Can't receive bonus yields on great works from Anshan)[NEWLINE][NEWLINE]Great Works in Eleanor's cities each cause -1 Loyalty per turn in foreign cities within 9 tiles. A city that leaves another civilization due to a loss of Loyalty and is currently receiving the most Loyalty per turn from Eleanor's civilization skips the Free City step to join this civilization.[NEWLINE][NEWLINE]When Eleanor leads France receive +20% [ICON_PRODUCTION] Production toward Ancient and Classical [ICON_DISTRICT_WONDER] Wonders.</Text>
 		</Replace>
 
 
@@ -1623,7 +1623,7 @@
 
 
 		<!-- == SWEDEN == -->
-		<Replace Tag="LOC_TRAIT_LEADER_MINERVA_OF_THE_NORTH_DESCRIPTION" Language="en_US">
+		<Replace Tag="LOC_TRAIT_LEADER_KRISTINA_DESCRIPTION" Language="en_US">
 			<Text>Buildings with at least three Great Work slots and [ICON_DISTRICT_WONDER] Wonders with at least two Great Work slots are automatically themed when they have all their slots filled. She may construct the Queen's Bibliotheque in the Government Plaza.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production from Great Works of Art.[NEWLINE]+4 Production from Great Works of Music."</Text>
 		</Replace>
 		<!-- = civilization ability = -->
