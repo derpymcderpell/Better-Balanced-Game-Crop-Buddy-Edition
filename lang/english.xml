@@ -1624,7 +1624,7 @@
 
 		<!-- == SWEDEN == -->
 		<Replace Tag="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION" Language="en_US">
-			<Text>Buildings with at least three Great Work slots and [ICON_DISTRICT_WONDER] Wonders with at least two Great Work slots are automatically themed when they have all their slots filled. She may construct the Queen's Bibliotheque in the Government Plaza.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production from Great Works of Art.[NEWLINE]+4 Production from Great Works of Music."</Text>
+			<Text>Buildings with at least three Great Work slots and [ICON_DISTRICT_WONDER] Wonders with at least two Great Work slots are automatically themed when they have all their slots filled. She may construct the Queen's Bibliotheque in the Government Plaza.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production from Great Works of Art.[NEWLINE]+4 [ICON_PRODUCTION] Production from Great Works of Music.</Text>
 		</Replace>
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
