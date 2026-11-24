@@ -2576,7 +2576,7 @@
 			<Text>Unlocks the Builder ability to construct a Quarry.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production. +1 [ICON_PRODUCTION] Production +1 after researching Military Engineering, and +2 [ICON_PRODUCTION] Production after researching Rocketry. -1 Appeal to adjacent tiles. Can only be constructed on a valid bonus or luxury resource tile (Stone, Marble, Gypsum).</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct Lumber Mills.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production. +1 [ICON_PRODUCTION] Production after researching Ballistics and +1 [ICON_PRODUCTION] Production after researching Synthetic Materials. Can only be placed on Woods tiles, or on Rainforest tiles after researching Mercantilism.</Text>
+			<Text>Unlocks the Builder ability to construct Lumber Mills.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production.[NEWLINE]+1 [ICON_PRODUCTION] Production if built on flat tile.[NEWLINE] +1 [ICON_PRODUCTION] Production after researching Ballistics and +1 [ICON_PRODUCTION] Production after researching Synthetic Materials. Can only be placed on Woods tiles, or on Rainforest tiles after researching Mercantilism.</Text>
 		</Replace>
 
 
