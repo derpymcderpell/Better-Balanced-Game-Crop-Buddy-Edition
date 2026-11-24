@@ -43,26 +43,6 @@ UPDATE ModifierArguments SET Value='40' WHERE ModifierId='CITY_PATRON_GODDESS_DI
 -- Dance of aurora only on flat tile
 UPDATE ModifierArguments SET Value='0' WHERE ModifierId='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY' AND Name='Amount';
 
---INSERT INTO RequirementSets (RequirementSetId , RequirementSetType) VALUES
---    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL'); 
-    
---INSERT INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES  
---    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIRES_PLOT_HAS_FARM'),
---    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIRES_PLOT_HAS_VISIBLE_RESOURCE');  
-
---INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
---    ('GOD_OF_WEALTH', 'MODIFIER_ALL_CITIES_ATTACH_MODIFIER', 'CITY_FOLLOWS_PANTHEON_REQUIREMENTS'),
---    ('GOD_OF_WEALTH_MODIFIER', 'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD', 'PLOT_HAS_RESOURCE_FARM_REQUIREMENTS');
-
---INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
---    ('GOD_OF_WEALTH', 'ModifierId', 'GOD_OF_WEALTH_MODIFIER'),
---    ('GOD_OF_WEALTH_MODIFIER', 'YieldType', 'YIELD_GOLD'),
---    ('GOD_OF_WEALTH_MODIFIER', 'Amount', 5);
-
--- For now just replacing aurora
---UPDATE BeliefModifiers SET ModifierID='GOD_OF_WEALTH' WHERE BeliefType='BELIEF_DANCE_OF_THE_AURORA';
--- INSERT INTO BeliefModifiers ('BELIEF_OPEN_SEA', 'OPEN_SEA_FISHINGBOATS_CULTURE');
-
 --==========================
 --*     STONE CIRCLES      *
 --==========================
@@ -524,8 +504,27 @@ INSERT INTO BeliefModifiers(BeliefType, ModifierID) VALUES
     ('BELIEF_INITIATION_RITES', 'BBG_INITIATION_RITES_FREE_WARRIOR');
 
 -- God of forge: 25 => 30%
-UPDATE ModifierArguments SET Value='30' WHERE ModifierId='GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION_MODIFIER' AND Name='Amount';
+--UPDATE ModifierArguments SET Value='30' WHERE ModifierId='GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION_MODIFIER' AND Name='Amount';
 
+INSERT OR IGNORE INTO RequirementSets (RequirementSetId , RequirementSetType) VALUES
+    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL'); 
+    
+INSERT OR IGNORE INTO RequirementSetRequirements (RequirementSetId , RequirementId) VALUES  
+    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIRES_PLOT_HAS_FARM'),
+    ('PLOT_HAS_RESOURCE_FARM_REQUIREMENTS', 'REQUIRES_PLOT_HAS_VISIBLE_RESOURCE');  
+
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+    ('GOD_OF_WEALTH', 'MODIFIER_ALL_CITIES_ATTACH_MODIFIER', 'CITY_FOLLOWS_PANTHEON_REQUIREMENTS'),
+    ('GOD_OF_WEALTH_MODIFIER', 'MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD', 'PLOT_HAS_RESOURCE_FARM_REQUIREMENTS');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+    ('GOD_OF_WEALTH', 'ModifierId', 'GOD_OF_WEALTH_MODIFIER'),
+    ('GOD_OF_WEALTH_MODIFIER', 'YieldType', 'YIELD_GOLD'),
+    ('GOD_OF_WEALTH_MODIFIER', 'Amount', 5);
+
+-- For now just replacing forge
+UPDATE BeliefModifiers SET ModifierID='GOD_OF_WEALTH' WHERE BeliefType='BELIEF_GOD_OF_THE_FORGE';
+-- INSERT INTO BeliefModifiers ('BELIEF_OPEN_SEA', 'OPEN_SEA_FISHINGBOATS_CULTURE');
 
 -- 15/12/22 Remove pantheon "healing goddess" (we didn't find anything usefull with the same thematic) but replace it with a new "open sea" pantheon that grants +1culture to improved sea ressources
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
