@@ -2337,11 +2337,8 @@
 			<Text>+40% [ICON_PRODUCTION] Production toward all [ICON_DISTRICT] districts in cities without a specialty [ICON_DISTRICT] district.</Text>
 		</Replace>		
 		<!-- == Dance of the Aurora == -->
-		<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME" Language="en_US">
-			<Text>God of Wealth</Text>
-		</Replace>
 		<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="en_US">
-			<Text>Farmed resources receive +5 [ICON_GOLD] Gold.</Text>
+			<Text>Holy Site districts get +1 [ICON_FAITH] Faith from adjacent flat Tundra tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TUNDRA_FAITH" Language="en_US">
 			<Text>+{1_num} [ICON_FAITH] Faith from the adjacent flat Tundra {1_Num : plural 1?tile; other?tiles;}.</Text>
@@ -2370,8 +2367,11 @@
 			<Text>+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from improved Strategic resources. All improved Strategic resources yield +1 additional resource per turn.</Text>
 		</Replace>
 		<!-- == God of the Forge == -->
+		<Replace Tag="LOC_BELIEF_GOD_OF_THE_FORGE_NAME" Language="en_US">
+			<Text>God of Wealth</Text>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION" Language="en_US">
-			<Text>+30% [ICON_PRODUCTION] Production toward Ancient and Classical military units.</Text>
+			<Text>Farmed resources receive +5 [ICON_GOLD] Gold.</Text>
 		</Replace>
 		<!-- Goddess of Tides - BBG Replacement of God of Healing -->
 		<Replace Tag="LOC_BELIEF_GOD_OF_HEALING_NAME" Language="en_US">
