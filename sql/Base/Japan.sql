@@ -55,7 +55,7 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
     ('BBG_HOJO_NO_NEIGHBOURHOOD_EXTRA_TS', 'BBG_HOJO_NO_NEIGHBOURHOOD_EXTRA_TS_DESC', 'YIELD_CULTURE', -1, 'DISTRICT_NEIGHBORHOOD');
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
-    ('DISTRICT_THEATER_SQUARE', 'BBG_HOJO_NO_NEIGHBOURHOOD_EXTRA_TS');
+    ('DISTRICT_THEATER', 'BBG_HOJO_NO_NEIGHBOURHOOD_EXTRA_TS');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
    SELECT TraitType, 'BBG_HOJO_NO_NEIGHBOURHOOD_EXTRA_TS' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_JAPAN' GROUP BY CivilizationType;
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
