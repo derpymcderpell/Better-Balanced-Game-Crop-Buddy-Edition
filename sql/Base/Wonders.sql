@@ -514,6 +514,8 @@ INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES
 UPDATE Buildings SET Cost=220 WHERE BuildingType='BUILDING_HANGING_GARDENS';
 -- Great Library : 200 > 250
 UPDATE Buildings SET Cost=500 WHERE BuildingType='BUILDING_GREAT_LIBRARY';
+-- Petra : 200 > 175
+UPDATE Buildings SET Cost=350 WHERE BuildingType='BUILDING_PETRA';
 -- Forbidden City : 460 > 530
 UPDATE Buildings SET Cost=1060 WHERE BuildingType='BUILDING_FORBIDDEN_CITY';
 -- Bolshoi Theatre : 620 > 680
@@ -528,6 +530,8 @@ UPDATE Buildings SET Cost=1360 WHERE BuildingType='BUILDING_HERMITAGE';
 UPDATE Buildings SET Cost=1450 WHERE BuildingType='BUILDING_BROADWAY';
 -- Sydney Opera House : 925 > 810
 UPDATE Buildings SET Cost=1620 WHERE BuildingType='BUILDING_SYDNEY_OPERA_HOUSE';
+-- Cristo Redentor : 620 > 580
+UPDATE Buildings SET Cost=1160 WHERE BuildingType='BUILDING_CRISTO_REDENTOR';
 
 
 -- 30/06/25 Hagia Sofia : Must be built next to a HS, need a religion Shrine give 2 science
