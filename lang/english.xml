@@ -87,7 +87,7 @@
 		</Row>= -->
 		<!-- = leader ability (Abraham Lincoln)= -->
 		<Replace Tag="LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION" Language="en_US">
-			<Text>+100% [ICON_PRODUCTION] Production to Industrial Zone and Aqueduct districts. Industrial Zones give +2 [ICON_AMENITIES] Amenities and +3 Loyalty per turn. Buildings in Industrial Zones gives +2 [ICON_CULTURE] Culture. Plantations give -2 Loyalty per turn.[NEWLINE][NEWLINE]Receive a free Melee unit after completing an Industrial Zone and their buildings. The free unit does not require strategic resources when created or to maintain.</Text>
+			<Text>+100% [ICON_PRODUCTION] Production to Industrial Zone and duct districts. Industrial Zones give +2 [ICON_AMENITIES] Amenities and +3 Loyalty per turn. Buildings in Industrial Zones gives +2 [ICON_CULTURE] Culture. Plantations give -2 Loyalty per turn.[NEWLINE][NEWLINE]Receive a free Melee unit after completing an Industrial Zone and their buildings. The free unit does not require strategic resources when created or to maintain.</Text>
 		</Replace>
 		<Row Tag="LOC_ABILITY_LINCOLN_MELEE_UNITS_COMBAT_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_STRENGTH] Combat Strength (Abraham Lincoln)</Text>
@@ -711,7 +711,7 @@
 		</Replace>
 		<!-- = unique district (Hansa) = -->
 		<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Germany for industrial activity. Replaces the Industrial Zone district and cheaper to build.[NEWLINE][NEWLINE]+ 2[ICON_Production] Production bonus for each adjacent Aqueduct, Canal, and Dam district. +1 [ICON_Production] Production bonus for each adjacent resource. +1 [ICON_Production] Production bonus for every two adjacent district tiles.</Text>
+			<Text>A district unique to Germany for industrial activity. Replaces the Industrial Zone district and cheaper to build.[NEWLINE][NEWLINE]+ 2[ICON_Production] Production bonus for each adjacent duct, Canal, and Dam district. +1 [ICON_Production] Production bonus for each adjacent resource. +1 [ICON_Production] Production bonus for every two adjacent district tiles.</Text>
 		</Replace>
 
 
@@ -1254,7 +1254,7 @@
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="en_US">
-			<Text>Nubian unique builder improvement unlocked at Craftsmanship. Can be built on any flat tile or desert hill. Cannot be built next to another Nubian Pyramid.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food and +2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]Receives additional yields from adjacent districts:[NEWLINE]+1 [ICON_FOOD] Food for the City Center.[NEWLINE]+3 [ICON_SCIENCE] Science per adjacent Campus.[NEWLINE]+3 [ICON_CULTURE] Culture per adjacent Theater Square.[NEWLINE]+2 [ICON_FAITH] Faith per adjacent Holy Site.[NEWLINE]+4 [ICON_GOLD] Gold per adjacent Commercial Hub and Harbor.[NEWLINE]+2 [ICON_PRODUCTION] Production per adjacent Industrial Zone, Encampment, and Aerodrome.[NEWLINE]+2 [ICON_FOOD] Food per adjacent Aqueduct.[NEWLINE]+2 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +3 [ICON_GOLD] Gold per adjacent Government Plaza and Diplomatic Quarter.</Text>
+			<Text>Nubian unique builder improvement unlocked at Craftsmanship. Can be built on any flat tile or desert hill. Cannot be built next to another Nubian Pyramid.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food and +2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]Receives additional yields from adjacent districts:[NEWLINE]+1 [ICON_FOOD] Food for the City Center.[NEWLINE]+3 [ICON_SCIENCE] Science per adjacent Campus.[NEWLINE]+3 [ICON_CULTURE] Culture per adjacent Theater Square.[NEWLINE]+2 [ICON_FAITH] Faith per adjacent Holy Site.[NEWLINE]+4 [ICON_GOLD] Gold per adjacent Commercial Hub and Harbor.[NEWLINE]+2 [ICON_PRODUCTION] Production per adjacent Industrial Zone, Encampment, and Aerodrome.[NEWLINE]+1 [ICON_FOOD] Food per adjacent Aqueduct.[NEWLINE]+2 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +3 [ICON_GOLD] Gold per adjacent Government Plaza and Diplomatic Quarter.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_PYRAMID_DISTRICT_SCIENCE_DESC" Language="en_US">
 			<Text>+1 [ICON_SCIENCE] Science from adjacent pyramid</Text>
