@@ -3125,7 +3125,7 @@
 		</Replace>
 		<!-- = Kumasi = -->
 		<Replace Tag="LOC_CIVILIZATION_KUMASI_BONUS" Language="en_US">
-			<Text>Your [ICON_TRADEROUTE] Trade Routes to any City-state provide +2 [ICON_CULTURE] Culture and also +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for every specialty district in the origin city.</Text>
+			<Text>Your [ICON_TRADEROUTE] Trade Routes to any City-state provide +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for every specialty district in the origin city.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION" Language="en_US">
 			<Text>Your [ICON_TRADEROUTE] Trade Routes to any City-state provide +2 [ICON_CULTURE] Culture and also +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for every specialty district in the origin city.</Text>
