@@ -3,9 +3,9 @@ INSERT OR IGNORE INTO ExcludedAdjacencies (TraitType , YieldChangeId) VALUES
     ('TRAIT_CIVILIZATION_ADJACENT_DISTRICTS' , 'River_Gold');
 
 -- District prod +100% -> +50%
-UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_ENCAMPMENT_PRODUCTION' AND Name = 'Amount';
-UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_THEATER_DISTRICT_PRODUCTION' AND Name = 'Amount';
-UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_HOLY_SITE_PRODUCTION' AND Name = 'Amount';
+--UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_ENCAMPMENT_PRODUCTION' AND Name = 'Amount';
+--UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_THEATER_DISTRICT_PRODUCTION' AND Name = 'Amount';
+--UPDATE ModifierArguments SET Value='50' WHERE ModifierId='TRAIT_BOOST_HOLY_SITE_PRODUCTION' AND Name = 'Amount';
 
 -- Samurai come at Feudalism now
 -- Implemented by Firaxis
