@@ -45,6 +45,9 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_TRAIT_BRAZIL_PROD_ON_UNIMPROVED_JUNGLE', 'YieldType', 'YIELD_PRODUCTION'),
     ('BBG_TRAIT_BRAZIL_PROD_ON_UNIMPROVED_JUNGLE', 'Amount', '1');
 
+INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
+    ('TRAIT_CIVILIZATION_AMAZON', 'BBG_TRAIT_BRAZIL_PROD_ON_UNIMPROVED_JUNGLE');
+
 -- Exclude Brazil from extra flat lumber mill prod
 INSERT INTO RequirementSets(RequirementSetId, RequirementSetType) VALUES
     ('BBG_PLOT_IS_FLAT_JUNGLE_LUMBER_MILL', 'REQUIREMENTSET_TEST_ALL');
