@@ -133,8 +133,8 @@ INSERT OR IGNORE INTO ImprovementModifiers (ImprovementType , ModifierId) VALUES
     ('IMPROVEMENT_SPHINX', 'BBG_SPHINX_FOOD_PLAINS'),
     ('IMPROVEMENT_SPHINX', 'BBG_SPHINX_FOOD_PLAINS_HILLS');
 
-INSERT INTO Improvement_BonusYieldChanges (Id, ImprovementType, YieldType, BonusYieldChange, PrereqCivic)
-    VALUES ('18', 'IMPROVEMENT_SPHINX', 'YIELD_FAITH', '1', 'CIVIC_CIVIL_SERVICE');
+--INSERT INTO Improvement_BonusYieldChanges (Id, ImprovementType, YieldType, BonusYieldChange, PrereqCivic)
+--    VALUES ('18', 'IMPROVEMENT_SPHINX', 'YIELD_FAITH', '1', 'CIVIC_CIVIL_SERVICE');
 
 
 --=============================================
