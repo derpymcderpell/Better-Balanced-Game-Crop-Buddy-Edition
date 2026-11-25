@@ -210,7 +210,7 @@
 		<!-- == BRAZIL == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION" Language="en_US">
-			<Text>Rainforest tiles provide +1 adjacency bonus for [ICON_DISTRICT_CAMPUS] Campuses, [ICON_DISTRICT_THEATER] Theater Squares, [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs, and [ICON_DISTRICT_HOLY_SITE] Holy Sites, and grant +1 Appeal to adjacent tiles instead of the usual -1.[NEWLINE]Unimproved Rainforest tiles gain +1 [ICON_PRODUCTION] Production at Construction. Does not receive the usual [ICON_PRODUCTION] production bonus on flat rainforest lumber mills.[NEWLINE][ICON_BULLET]Bias: T2 Rainforest.</Text>
+			<Text>Rainforest tiles provide +1 adjacency bonus for [ICON_DISTRICT_CAMPUS] Campuses, [ICON_DISTRICT_THEATER] Theater Squares, [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs, and [ICON_DISTRICT_HOLY_SITE] Holy Sites, and grant +1 Appeal to adjacent tiles instead of the usual -1.[NEWLINE]Unimproved Rainforest tiles gain +1 [ICON_PRODUCTION] Production at Construction.[NEWLINE][ICON_BULLET]Bias: T2 Rainforest.</Text>
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION" Language="en_US">
