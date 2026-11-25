@@ -6,6 +6,13 @@ UPDATE Governments SET OtherGovernmentIntolerance=0 WHERE GovernmentType='GOVERN
 UPDATE Governments SET OtherGovernmentIntolerance=-40 WHERE GovernmentType='GOVERNMENT_CORPORATE_LIBERTARIANISM';
 UPDATE Governments SET OtherGovernmentIntolerance=-40 WHERE GovernmentType='GOVERNMENT_SYNTHETIC_TECHNOCRACY';
 
+-- Add card slots
+UPDATE Government_SlotCounts SET NumSlots=2 WHERE GovernmentType='GOVERNMENT_DIGITAL_DEMOCRACY' AND GovernmentSlotType='SLOT_ECONOMIC';
+UPDATE Government_SlotCounts SET NumSlots=6 WHERE GovernmentType='GOVERNMENT_DIGITAL_DEMOCRACY' AND GovernmentSlotType='SLOT_WILDCARD';
+UPDATE Government_SlotCounts SET NumSlots=6 WHERE GovernmentType='GOVERNMENT_CORPORATE_LIBERTARIANISM' AND GovernmentSlotType='SLOT_WILDCARD';
+UPDATE Government_SlotCounts SET NumSlots=2 WHERE GovernmentType='GOVERNMENT_SYNTHETIC_TECHNOCRACY' AND GovernmentSlotType='SLOT_DIPLOMATIC';
+UPDATE Government_SlotCounts SET NumSlots=6 WHERE GovernmentType='GOVERNMENT_SYNTHETIC_TECHNOCRACY' AND GovernmentSlotType='SLOT_WILDCARD';
+
 -- Replace +2 favor on renaissance wall with monarchy to +2 culture
 UPDATE Modifiers SET ModifierType='MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE' WHERE ModifierId='MONARCHY_STARFORT_FAVOR';
 UPDATE Modifiers SET SubjectRequirementSetId=NULL WHERE ModifierId='MONARCHY_STARFORT_FAVOR';
