@@ -2337,9 +2337,6 @@
 			<Text>+40% [ICON_PRODUCTION] Production toward all [ICON_DISTRICT] districts in cities without a specialty [ICON_DISTRICT] district.</Text>
 		</Replace>		
 		<!-- == Dance of the Aurora == -->
-		<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_NAME" Language="en_US">
-			<Text>Meditation by the Lake</Text>
-		</Replace>
 		<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_GOLD] from improved freshwater tiles adjacent to a Lake or Coast tile.</Text>
 		</Replace>
