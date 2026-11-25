@@ -6,6 +6,8 @@
 
 
 -- === Existing Policies Adjustments ===
+-- Ecommerce buff +6 prod
+UPDATE ModifierArguments SET Value='6' WHERE ModifierId='ECOMMERCE_INTERNATIONALTRADEPRODUCTION' AND Name='Amount';
 -- Buff Discipline +5 -> +10
 UPDATE ModifierArguments SET Value='10' WHERE ModifierId='DISCIPLINE_BARBARIANCOMBAT' AND Name='Amount';
 -- 14/07/26 Discipline also grants +1 vision to recon units
