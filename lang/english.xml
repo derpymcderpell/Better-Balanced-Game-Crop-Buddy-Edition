@@ -87,7 +87,7 @@
 		</Row>= -->
 		<!-- = leader ability (Abraham Lincoln)= -->
 		<Replace Tag="LOC_TRAIT_LEADER_LINCOLN_EXPANSION_DESCRIPTION" Language="en_US">
-			<Text>+100% [ICON_PRODUCTION] Production to Industrial Zone and duct districts. Industrial Zones give +2 [ICON_AMENITIES] Amenities and +3 Loyalty per turn. Buildings in Industrial Zones gives +2 [ICON_CULTURE] Culture. Plantations give -2 Loyalty per turn.[NEWLINE][NEWLINE]Receive a free Melee unit after completing an Industrial Zone and their buildings. The free unit does not require strategic resources when created or to maintain.</Text>
+			<Text>+100% [ICON_PRODUCTION] Production to [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone and duct districts. [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones give +2 [ICON_AMENITIES] Amenities and +3 Loyalty per turn. Buildings in [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones gives +2 [ICON_CULTURE] Culture. Plantations give -2 Loyalty per turn.[NEWLINE][NEWLINE]Receive a free Melee unit after completing an [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone and their buildings. The free unit does not require strategic resources when created or to maintain.</Text>
 		</Replace>
 		<Row Tag="LOC_ABILITY_LINCOLN_MELEE_UNITS_COMBAT_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_STRENGTH] Combat Strength (Abraham Lincoln)</Text>
@@ -252,7 +252,7 @@
 		</Replace>
 		<!-- = leader ability (Theodora) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="en_US">
-			<Text>After researching Political Philosophy, [ICON_DISTRICT] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to Hippodromes and [ICON_DISTRICT] Holy Sites. Farms receive +2 [ICON_PRODUCTION] from Hippodromes and +1 [ICON_CULTURE] from Holy Sites.</Text>
+			<Text>After researching Political Philosophy, [ICON_DISTRICT_HOLY_SITE] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent [ICON_DISTRICT] District.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to Hippodromes and [ICON_DISTRICT_HOLY_SITE] Holy Sites. Farms receive +2 [ICON_PRODUCTION] from Hippodromes and +1 [ICON_CULTURE] from [ICON_DISTRICT_HOLY_SITE] Holy Sites.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_THEODORA_HOLYSITE_CULTURE" Language="en_US">
 			<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
@@ -1599,7 +1599,7 @@
 			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity for each [ICON_DISTRICT_HARBOR] Harbor adjacent to a [ICON_DISTRICT_WONDER] World Wonder.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_SUK_HUSUNI_KUBWA_XP2_DESCRIPTION" Language="en_US">
-			<Text>[ICON_TRADEROUTE] Trade Route capacity +1 for each Harbor adjacent to a World Wonder.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity for each [ICON_DISTRICT_HARBOR] Harbor adjacent to a [ICON_DISTRICT_WONDER] World Wonder.</Text>
 		</Replace>
 		<!-- = Unique unit -->
 		<Replace Tag="LOC_UNIT_SUK_JAHAZI_NAME" Language="en_US">
