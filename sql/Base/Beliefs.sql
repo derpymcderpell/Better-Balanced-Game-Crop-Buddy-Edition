@@ -44,7 +44,7 @@ UPDATE ModifierArguments SET Value='40' WHERE ModifierId='CITY_PATRON_GODDESS_DI
 --UPDATE ModifierArguments SET Value='0' WHERE ModifierId='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY' AND Name='Amount';
 
 -- replace aurora
-DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
+--DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
 DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY';
 
 INSERT OR IGNORE INTO RequirementSets (RequirementSetId , RequirementSetType) VALUES
@@ -66,7 +66,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('MEDITATION_BY_THE_LAKE_MODIFIER', 'Amount', 2);
 
 -- For now just replacing forge
-UPDATE BeliefModifiers SET ModifierID='MEDITATION_BY_THE_LAKE' WHERE BeliefType='BELIEF_DANCE_OF_THE_AURORA';
+UPDATE BeliefModifiers SET ModifierID='MEDITATION_BY_THE_LAKE' WHERE BeliefType='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
 -- INSERT INTO BeliefModifiers ('BELIEF_OPEN_SEA', 'OPEN_SEA_FISHINGBOATS_CULTURE');
 
 --==========================
