@@ -66,7 +66,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('MEDITATION_BY_THE_LAKE_MODIFIER', 'Amount', 2);
 
 -- For now just replacing forge
-UPDATE BeliefModifiers SET ModifierID='MEDITATION_BY_THE_LAKE' WHERE BeliefType='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
+UPDATE BeliefModifiers SET ModifierID='MEDITATION_BY_THE_LAKE' WHERE BeliefType='DANCE_OF_THE_AURORA' AND ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
 -- INSERT INTO BeliefModifiers ('BELIEF_OPEN_SEA', 'OPEN_SEA_FISHINGBOATS_CULTURE');
 
 --==========================
