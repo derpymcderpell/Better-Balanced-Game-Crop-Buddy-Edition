@@ -1,6 +1,12 @@
 --==================
 -- Byzantium
 --==================
+-- move combat bonus to basil
+DELETE FROM TraitModifiers WHERE ModifierId='BYZANTIUM_COMBAT_HOLY_CITIES' AND TraitType='TRAIT_CIVILIZATION_BYZANTIUM';
+
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+    ('TRAIT_LEADER_BASIL', 'BYZANTIUM_COMBAT_HOLY_CITIES');
+
 -- reduce combat bonus for holy cities
 UPDATE ModifierArguments SET Value='1' WHERE ModifierId='BYZANTIUM_COMBAT_HOLY_CITIES' AND Name='Amount';
 -- remove dromon combat bonus
