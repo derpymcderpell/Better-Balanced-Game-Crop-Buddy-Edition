@@ -41,11 +41,11 @@ UPDATE ModifierArguments SET Value='40' WHERE ModifierId='CITY_PATRON_GODDESS_DI
 --*    DANSE OF AURORA     *
 --==========================
 -- Dance of aurora only on flat tile
---UPDATE ModifierArguments SET Value='0' WHERE ModifierId='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY' AND Name='Amount';
+UPDATE ModifierArguments SET Value='0' WHERE ModifierId='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY' AND Name='Amount';
 
 -- replace aurora
 --DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY';
-DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY';
+--DELETE FROM BeliefModifiers WHERE ModifierID='DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY';
 
 INSERT OR IGNORE INTO RequirementSets (RequirementSetId , RequirementSetType) VALUES
     ('PLOT_IS_ADJ_TO_LAKE_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL'); 
