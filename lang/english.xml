@@ -4143,7 +4143,7 @@
 		
 		<!-- == Engineers == -->
 		<Replace Tag="LOC_GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE" Language="en_US">
-			<Text>Gain +1 [ICON_HOUSING] Housing and +1 [ICON_AMENITIES] Amenities in this city.</Text>
+			<Text>Gain +1 [ICON_Citizen] Population, [ICON_HOUSING] Housing, and [ICON_AMENITIES] Amenity in this city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_CITY_APPEAL_SMALL" Language="en_US">
 			<Text>This city provides +{Amount} Appeal to any tiles it owns. This city receives +2 [ICON_GOLD] Gold from each breathtaking tile.</Text>
