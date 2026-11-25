@@ -3896,6 +3896,34 @@
 		<Replace Tag="LOC_POLICY_TOTAL_WAR_EXPANSION1_ALT_DESCRIPTION" Language="en_US">
 			<Text>Yields gained from [ICON_PILLAGED] pillaging and coastal raids are +50%. +50% rewards for plundering [ICON_TRADEROUTE] Trade Routes</Text>
 		</Replace>
+		<!-- = Preservation (BBG: CBE) = -->
+		<Replace Tag="LOC_POLICY_PRESERVATION_NAME" Language="en_US">
+			<Text>Preservation</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRESERVATION_DESCRIPTION" Language="en_US">
+			<Text>+12 [ICON_STRENGTH] Combat Strength on Walls.</Text>
+		</Replace>
+		<!-- = Ecommerce = -->
+		<Replace Tag="LOC_POLICY_ECOMMERCE_NAME" Language="en_US">
+			<Text>Preservation</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECOMMERCE_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_PRODUCTION] Production and +5 [ICON_GOLD] Gold from all [ICON_TRADE_ROUTE] Trade Routes.</Text>
+		</Replace>
+		<!-- = Global Coalition = -->
+		<Replace Tag="LOC_POLICY_GLOBAL_COALITION_NAME" Language="en_US">
+			<Text>Preservation</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GLOBAL_COALITION_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_STRENGTH] Combat Strength for units in friendly territory.</Text>
+		</Replace>
+		<!-- = Diplomatic Capital = -->
+		<Replace Tag="LOC_POLICY_DIPLOMATIC_CAPITAL_NAME" Language="en_US">
+			<Text>Preservation</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DIPLOMATIC_CAPITAL_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_FAVOR] Diplomatic Favour per turn.[NEWLINE][NEWLINE]Enemies receive 300% more War Weariness from fighting you.</Text>
+		</Replace>
 		<!-- = Trench Warfare (BBG) = -->
 		<Replace Tag="LOC_POLICY_TRENCH_WARFARE_NAME" Language="en_US">
 			<Text>Trench Warfare</Text>
