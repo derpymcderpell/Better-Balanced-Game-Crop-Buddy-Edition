@@ -1439,7 +1439,7 @@
 		<!-- == RUSSIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Extra territory upon founding cities. +1 [ICON_PRODUCTION] Production from Tundra tiles. Cities in Tundra with a Temple receive +1 [ICON_FOOD] Food.[NEWLINE]Units do not receive damage from Blizzards. Civilizations that are at war with Russia receive +100% unit damage from Blizzards in Russian territory.[NEWLINE][ICON_BULLET]Bias: T1 Tundra.</Text>
+			<Text>Extra territory upon founding cities. +1 [ICON_PRODUCTION] Production from Tundra tiles.[NEWLINE][NEWLINE]Units do not receive damage from Blizzards. Civilizations that are at war with Russia receive +100% unit damage from Blizzards in Russian territory.[NEWLINE][ICON_BULLET]Bias: T1 Tundra.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION" Language="en_US">
@@ -1447,7 +1447,7 @@
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Russia that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Your city border grows by one tile each time a [ICON_GreatPerson] Great Person is used in one of this city's [ICON_DISTRICT] districts. The Lavra provides +1 [ICON_GreatWriter] Great Writer point per turn with a Temple and +1 [ICON_GreatArtist] Great Artist point per turn with a Worship building.</Text>
+			<Text>A district unique to Russia that replaces the Holy Site district and is cheaper to build.[NEWLINE][NEWLINE]Your city border grows by one tile each time a [ICON_GreatPerson] Great Person is used in one of this city's [ICON_DISTRICT] districts. The Lavra provides +1 [ICON_GreatWriter] Great Writer point and +1 [ICON_GreatArtist] Great Artist point per turn with a Worship building.</Text>
 		</Replace>
 
 
