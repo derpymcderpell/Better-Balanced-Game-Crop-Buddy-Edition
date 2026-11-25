@@ -75,9 +75,30 @@ INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'GreatWorkObjectType', 'GREATWORKOBJECT_WRITING'),
     ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldType', 'YIELD_FOOD'),
-    ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldChange', 1.5);
+    ('BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD', 'YieldChange', 1);
 INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_QIN', 'BBG_QIN_UNIFIER_BOOKS_GIVE_FOOD');
+
+-- Encampment buildings get +1 food
+INSERT INTO Modifiers(ModifierId, ModifierType) 
+	SELECT 'BBG_UNIFIER_ENCAMPMENT_FOOD' || buildingType, 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE' 
+FROM Buildings WHERE PrereqDistrict='DISTRICT_ENCAMPMENT';
+
+INSERT INTO ModifierArguments(ModifierId, Name, Value) 
+	SELECT 'BBG_UNIFIER_ENCAMPMENT_FOOD' || buildingType, 'BuildingType', buildingType
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENCAMPMENT';
+
+INSERT INTO ModifierArguments(ModifierId, Name, Value) 
+	SELECT 'BBG_UNIFIER_ENCAMPMENT_FOOD' || buildingType, 'Amount', '1'
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENCAMPMENT';
+
+INSERT INTO ModifierArguments(ModifierId, Name, Value) 
+	SELECT 'BBG_UNIFIER_ENCAMPMENT_FOOD' || buildingType, 'YieldType', 'YIELD_FOOD'
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENCAMPMENT';
+
+INSERT INTO TraitModifiers(TraitType, ModifierId) 
+	SELECT 'TRAIT_LEADER_QIN', 'BBG_UNIFIER_ENCAMPMENT_FOOD' || buildingType
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENCAMPMENT';
 
 -- Strength from books try, it necessits the book to be moved at least once for it to work /:
 -- INSERT INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
