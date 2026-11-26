@@ -20,8 +20,8 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 
 -- Farms buff
 
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_THEODORA_CULTURE_FARM_HOLY_SITE', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE_DESC', 'YIELD_CULTURE', 1, 'DISTRICT_HOLY_SITE');
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentDistrict) VALUES
+    ('BBG_THEODORA_CULTURE_FARM_HOLY_SITE', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE_DESC', 'YIELD_CULTURE', 1, 1, 'DISTRICT_HOLY_SITE');
 INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId) VALUES
     ('IMPROVEMENT_FARM', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
@@ -29,8 +29,8 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 	('TRAIT_LEADER_BASIL', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE');
 
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_THEODORA_PRODUCTION_FARM_HIPPODROME', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE_DESC', 'YIELD_CULTURE', 1, 'DISTRICT_HIPPODROME');
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentDistrict) VALUES
+    ('BBG_THEODORA_PRODUCTION_FARM_HIPPODROME', 'BBG_THEODORA_CULTURE_FARM_HOLY_SITE_DESC', 'YIELD_CULTURE', 1, 1, 'DISTRICT_HIPPODROME');
 INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId) VALUES
     ('IMPROVEMENT_FARM', 'BBG_THEODORA_PRODUCTION_FARM_HIPPODROME');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
