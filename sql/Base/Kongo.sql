@@ -118,7 +118,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 
 
 -- 19/12/25 Merchant point moved to Mbande
-DELETE FROM TraitModifiers WHERE ModifierId='TRAIT_DOUBLE_MERCHANT_POINTS' AND TraitType='TRAIT_CIVILIZATION_NKISI';
+--DELETE FROM TraitModifiers WHERE ModifierId='TRAIT_DOUBLE_MERCHANT_POINTS' AND TraitType='TRAIT_CIVILIZATION_NKISI';
 
 -- 19/12/25 Mvemba gets +50% general points
 -- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
