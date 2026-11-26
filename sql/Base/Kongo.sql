@@ -118,7 +118,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 
 
 -- 19/12/25 Merchant point moved to Mbande
-DELETE FROM TraitModifiers WHERE ModifierId='TRAIT_DOUBLE_MERCHANT_POINTS' AND TraitType='TRAIT_CIVILIZATION_NKISI';
+--DELETE FROM TraitModifiers WHERE ModifierId='TRAIT_DOUBLE_MERCHANT_POINTS' AND TraitType='TRAIT_CIVILIZATION_NKISI';
 
 -- 19/12/25 Mvemba gets +50% general points
 -- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
@@ -130,7 +130,7 @@ DELETE FROM TraitModifiers WHERE ModifierId='TRAIT_DOUBLE_MERCHANT_POINTS' AND T
 --     ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_MVEMBA_GENERAL_POINTS');
 
 -- 17/03/26 Barrack et stable give 1 extra general point
-INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+/*INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
     ('BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS_GIVER', 'MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER', NULL),
     ('BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS', 'MODIFIER_SINGLE_CITY_ADJUST_GREAT_PERSON_POINT', 'BBG_CITY_HAS_STABLE_BARRACKS_REQSET');
 
@@ -139,7 +139,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS', 'Amount', '1'),
     ('BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS', 'GreatPersonClassType', 'GREAT_PERSON_CLASS_GENERAL');
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-    ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS_GIVER');
+    ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS_GIVER');*/
 
 -- 19/12/25 Forest/rainforest give +1 prod when adjacent to an encampment
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
