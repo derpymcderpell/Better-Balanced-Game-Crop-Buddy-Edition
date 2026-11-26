@@ -86,5 +86,5 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_NZINGA_MBANDE', 'BBG_TRAIT_ARCHAEOLOGIST_COST');
 
 -- 19/12/25 Receives merchant points from Kongo
-INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
-    ('TRAIT_LEADER_NZINGA_MBANDE', 'TRAIT_DOUBLE_MERCHANT_POINTS');
+--INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+--    ('TRAIT_LEADER_NZINGA_MBANDE', 'TRAIT_DOUBLE_MERCHANT_POINTS');
