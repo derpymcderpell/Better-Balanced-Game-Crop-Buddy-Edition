@@ -39,9 +39,9 @@ INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_PLANTATION', 'BBG_PLANTATION_PROD_FLAT_TILE');
 
 -- Lumber mill +1 production if on flat tile
-INSERT OR IGNORE INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
+INSERT INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
 	('BBG_PLOT_IS_FLAT', 'REQUIREMENTSET_TEST_ANY');
-INSERT OR IGNORE INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
+INSERT INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
 	('BBG_PLOT_IS_FLAT', 'REQUIRES_PLOT_IS_FLAT');
 INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
     ('BBG_LUMBER_MILL_PROD_FLAT_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT');
@@ -53,9 +53,9 @@ INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_LUMBER_MILL', 'BBG_LUMBER_MILL_PROD_FLAT_TILE');
 
 -- Camp +1 food if on flat tile
-INSERT OR IGNORE INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
+INSERT INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
 	('BBG_PLOT_IS_FLAT_GRASS', 'REQUIREMENTSET_TEST_ANY');
-INSERT OR IGNORE INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
+INSERT INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
 	('BBG_PLOT_IS_FLAT_GRASS', 'REQUIRES_PLOT_IS_FLAT'),
 	('BBG_PLOT_IS_FLAT_GRASS', 'BBG_TILE_IS_GRASS');
 INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
@@ -67,16 +67,17 @@ INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_CAMP', 'BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE');
 
-INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
-    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT_PLAINS');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
-    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'Amount', '1'),
-    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'YieldType', 'YIELD_FOOD');
+
 INSERT INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
 	('BBG_PLOT_IS_FLAT_PLAINS', 'REQUIREMENTSET_TEST_ANY');
 INSERT INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
 	('BBG_PLOT_IS_FLAT_PLAINS', 'REQUIRES_PLOT_IS_FLAT'),
 	('BBG_PLOT_IS_FLAT_PLAINS', 'BBG_TILE_IS_PLAINS');
+INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
+    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT_PLAINS');
+INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
+    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'Amount', '1'),
+    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'YieldType', 'YIELD_FOOD');
 
 INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_CAMP', 'BBG_CAMP_FOOD_FLAT_PLAINS_TILE');
