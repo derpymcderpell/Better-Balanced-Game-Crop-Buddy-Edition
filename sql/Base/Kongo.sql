@@ -125,9 +125,11 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 -- market and UD grant yields based on follower belief
 -- create Mbanza RequirementId
 INSERT OR IGNORE INTO Requirements (RequirementId, RequirementType) VALUES
-    ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'REQUIREMENT_CITY_HAS_DISTRICT');
+    ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'REQUIREMENT_CITY_HAS_DISTRICT'),
+    ('BBG_REQUIRES_PLOT_IS_CITY_CENTER', 'REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES');
 INSERT OR IGNORE INTO RequirementArguments (RequirementId, Name, Value) VALUES
-    ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'DistrictType', 'DISTRICT_MBANZA');
+    ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'DistrictType', 'DISTRICT_MBANZA'),
+    ('BBG_REQUIRES_PLOT_IS_CITY_CENTER', 'DistrictType', 'DISTRICT_CITY_CENTER');
 
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
     ('BBG_MVEMBA_HAS_MARKET_AND_FOLLOWER_BELIEF', 'REQUIREMENTSET_TEST_ALL'),
