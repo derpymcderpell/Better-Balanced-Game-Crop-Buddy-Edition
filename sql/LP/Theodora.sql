@@ -41,23 +41,23 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 -- Hippodrome buildings get +2 food
 INSERT INTO Modifiers(ModifierId, ModifierType) 
 	SELECT 'BBG_THEODORA_ENTERTAINMENT_FOOD' || buildingType, 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE' 
-FROM Buildings WHERE PrereqDistrict='DISTRICT_HIPPODROME';
+FROM Buildings WHERE PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
 
 INSERT INTO ModifierArguments(ModifierId, Name, Value) 
 	SELECT 'BBG_THEODORA_ENTERTAINMENT_FOOD' || buildingType, 'BuildingType', buildingType
-	FROM Buildings WHERE PrereqDistrict='DISTRICT_HIPPODROME';
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
 
 INSERT INTO ModifierArguments(ModifierId, Name, Value) 
 	SELECT 'BBG_THEODORA_ENTERTAINMENT_FOOD' || buildingType, 'Amount', '2'
-	FROM Buildings WHERE PrereqDistrict='DISTRICT_HIPPODROME';
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
 
 INSERT INTO ModifierArguments(ModifierId, Name, Value) 
 	SELECT 'BBG_THEODORA_ENTERTAINMENT_FOOD' || buildingType, 'YieldType', 'YIELD_FOOD'
-	FROM Buildings WHERE PrereqDistrict='DISTRICT_HIPPODROME';
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
 
 INSERT INTO TraitModifiers(TraitType, ModifierId) 
 	SELECT 'TRAIT_LEADER_THEODORA', 'BBG_THEODORA_ENTERTAINMENT_FOOD' || buildingType
-	FROM Buildings WHERE PrereqDistrict='DISTRICT_HIPPODROME';
+	FROM Buildings WHERE PrereqDistrict='DISTRICT_ENTERTAINMENT_COMPLEX';
 
 INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
 	('TRAIT_LEADER_THEODORA', 'BBG_THEODORA_HOLYSITE_CULTURE');
