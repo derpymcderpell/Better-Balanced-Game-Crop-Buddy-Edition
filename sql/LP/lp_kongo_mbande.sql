@@ -33,9 +33,9 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
     
 -- 18/06/23 Mbande gets +10% culture & gold in cities with Mbanza
 -- 19/12/25 Increased to 15%
-INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+INSERT OR IGNORE INTO Requirements (RequirementId, RequirementType) VALUES
     ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'REQUIREMENT_CITY_HAS_DISTRICT');
-INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+INSERT OR IGNORE INTO RequirementArguments (RequirementId, Name, Value) VALUES
     ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'DistrictType', 'DISTRICT_MBANZA');
 
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
