@@ -252,7 +252,7 @@
 		</Replace>
 		<!-- = leader ability (Theodora) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="en_US">
-			<Text>After researching Political Philosophy, [ICON_DISTRICT_HOLY_SITE] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent [ICON_DISTRICT] District.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodromes and [ICON_DISTRICT_HOLY_SITE] Holy Sites. Farms receive +2 [ICON_PRODUCTION] from Hippodromes and +1 [ICON_CULTURE] from [ICON_DISTRICT_HOLY_SITE] Holy Sites.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food from [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodrome buildings.</Text>
+			<Text>After researching Political Philosophy, [ICON_DISTRICT_HOLY_SITE] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent [ICON_DISTRICT] District.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodromes and [ICON_DISTRICT_HOLY_SITE] Holy Sites. Farms receive +2 [ICON_PRODUCTION] and [ICON_CULTURE] from Hippodromes.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food from [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodrome buildings.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_THEODORA_HOLYSITE_CULTURE" Language="en_US">
 			<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
