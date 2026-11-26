@@ -124,7 +124,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 
 -- market and UD grant yields based on follower belief
 -- create Mbanza RequirementId
-INSERT OR IGNORE INTO Requirements (RequirementId, RequirementType) VALUES
+/*INSERT OR IGNORE INTO Requirements (RequirementId, RequirementType) VALUES
     ('BBG_REQUIREMENT_CITY_HAS_MBANZA', 'REQUIREMENT_CITY_HAS_DISTRICT');
 
 INSERT OR IGNORE INTO RequirementArguments (RequirementId, Name, Value) VALUES
@@ -191,7 +191,7 @@ INSERT INTO BeliefModifiers (BeliefType, ModifierId) VALUES
     ('BELIEF_WORK_ETHIC', 'BBG_MVEMBA_MARKET_PRODUCTION_YIELD_GIVER'),
     ('BELIEF_WARRIOR_MONKS', 'BBG_MVEMBA_MARKET_PRODUCTION_YIELD_GIVER'),
     ('BELIEF_WORK_ETHIC', 'BBG_MVEMBA_MBANZA_PRODUCTION_YIELD_GIVER'),
-    ('BELIEF_WARRIOR_MONKS', 'BBG_MVEMBA_MBANZA_PRODUCTION_YIELD_GIVER');
+    ('BELIEF_WARRIOR_MONKS', 'BBG_MVEMBA_MBANZA_PRODUCTION_YIELD_GIVER');*/
 
 
 -- 19/12/25 Merchant point moved to Mbande
