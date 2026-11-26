@@ -142,7 +142,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_KONGO_BARRACKS_STABLES_GENERAL_POINTS_GIVER');
 
 -- 19/12/25 Forest/rainforest give +1 prod when adjacent to an encampment
-INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+/*INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
     ('BBG_PLOT_IS_FOREST_ADJACENT_ENCAMPMENT_REQSET', 'REQUIREMENTSET_TEST_ALL'),
     ('BBG_PLOT_IS_JUNGLE_ADJACENT_ENCAMPMENT_REQSET', 'REQUIREMENTSET_TEST_ALL');
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
@@ -165,7 +165,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBG_MVEMBA_PROD_JUNGLE_ADJACENT_ENCAMPMENT', 'Amount', 1);
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_MVEMBA_PROD_FOREST_ADJACENT_ENCAMPMENT'),
-    ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_MVEMBA_PROD_JUNGLE_ADJACENT_ENCAMPMENT');
+    ('TRAIT_LEADER_RELIGIOUS_CONVERT', 'BBG_MVEMBA_PROD_JUNGLE_ADJACENT_ENCAMPMENT');*/
 
 -- 02/01/26 Forest/rainforest give +1 prod when adjacent to an encampment and the city has a MBanza
 /*INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
