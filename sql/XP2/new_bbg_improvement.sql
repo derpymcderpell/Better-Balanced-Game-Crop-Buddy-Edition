@@ -54,7 +54,7 @@ INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
 
 -- Camp +1 food if on flat tile
 INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
-    ('BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT');
+    ('BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_TILE_IS_GRASS');
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
     ('BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE', 'Amount', '1'),
     ('BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE', 'YieldType', 'YIELD_FOOD');
@@ -68,7 +68,7 @@ INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_CAMP', 'BBG_CAMP_FOOD_FLAT_GRASSLANDS_TILE');
 
 INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES
-    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT');
+    ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_PLOT_IS_FLAT_PLAINS');
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
     ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'Amount', '1'),
     ('BBG_CAMP_FOOD_FLAT_PLAINS_TILE', 'YieldType', 'YIELD_FOOD');
