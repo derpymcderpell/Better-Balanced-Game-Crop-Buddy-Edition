@@ -197,10 +197,10 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HAMMURABI_DESCRIPTION" Language="en_US">
-			<Text>When each [ICON_DISTRICT] specialty district is constructed for the first time, receive the lowest [ICON_PRODUCTION] Production cost building that can currently be constructed in that [ICON_DISTRICT] district.</Text>
+			<Text>When each [ICON_DISTRICT] Specialty District is constructed for the first time, receive the lowest [ICON_PRODUCTION] Production cost building that can currently be constructed in that [ICON_DISTRICT] District.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HAMMURABI_XP1_DESCRIPTION" Language="en_US">
-			<Text>When each [ICON_DISTRICT] specialty district type except the Government Plaza is constructed for the first time, receive the lowest [ICON_PRODUCTION] Production cost building that can currently be constructed in that district.</Text>
+			<Text>When each [ICON_DISTRICT] Specialty District type except the Government Plaza is constructed for the first time, receive the lowest [ICON_PRODUCTION] Production cost building that can currently be constructed in that District.</Text>
 		</Replace>
 		<!-- = unique building = -->
 		<Replace Tag="LOC_BUILDING_PALGUM_DESCRIPTION" Language="en_US">
@@ -252,7 +252,7 @@
 		</Replace>
 		<!-- = leader ability (Theodora) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_THEODORA_DESCRIPTION" Language="en_US">
-			<Text>After researching Political Philosophy, [ICON_DISTRICT_HOLY_SITE] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent [ICON_DISTRICT] District.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to Hippodromes and [ICON_DISTRICT_HOLY_SITE] Holy Sites. Farms receive +2 [ICON_PRODUCTION] from Hippodromes and +1 [ICON_CULTURE] from [ICON_DISTRICT_HOLY_SITE] Holy Sites.</Text>
+			<Text>After researching Political Philosophy, [ICON_DISTRICT_HOLY_SITE] Holy Sites provide +1 [ICON_CULTURE] Culture for each adjacent [ICON_DISTRICT] District.[NEWLINE][NEWLINE]Farms provide a +1 [ICON_FAITH] Faith adjacency to [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodromes and [ICON_DISTRICT_HOLY_SITE] Holy Sites. Farms receive +2 [ICON_PRODUCTION] from Hippodromes and +1 [ICON_CULTURE] from [ICON_DISTRICT_HOLY_SITE] Holy Sites.[NEWLINE][NEWLINE]+2 Food on [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Hippodrome buildings.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_THEODORA_HOLYSITE_CULTURE" Language="en_US">
 			<Text>+{1_num} [ICON_CULTURE] Culture from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
@@ -331,13 +331,13 @@
 			<Text>Cities with 10 or more [ICON_CITIZEN] Population receive +0.7 [ICON_SCIENCE] Science, +0.5 [ICON_CULTURE] Culture, and +0.5 [ICON_GOLD] Gold per turn for each [ICON_CITIZEN] Population in the city.[NEWLINE][NEWLINE]All cities receive unique city projects where that converts 70% of their [ICON_PRODUCTION] Production into [ICON_FOOD] Food or [ICON_FAITH] Faith, or 150% if it is [ICON_GOLD] Gold.[NEWLINE][NEWLINE]When each city reaches 13 [ICON_CITIZEN] population for the first time receive a random [ICON_TechBoosted] Eureka; at 18 [ICON_CITIZEN] Population receive a random [ICON_CivicBoosted] Inspiration.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LIJIA_FOOD_DESCRIPTION" Language="en_US">
-			<Text>Project which provides [ICON_FOOD] Food every turn equal to 70% of this city's production.</Text>
+			<Text>Project which provides [ICON_FOOD] Food every turn equal to 70% of this city's [ICON_PRODUCTION] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LIJIA_FAITH_DESCRIPTION" Language="en_US">
-			<Text>Project which provides [ICON_FAITH] Faith every turn equal to 70% of this city's production.</Text>
+			<Text>Project which provides [ICON_FAITH] Faith every turn equal to 70% of this city's [ICON_PRODUCTION] Production.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_LIJIA_GOLD_DESCRIPTION" Language="en_US">
-			<Text>Project which provides [ICON_GOLD] Gold every turn equal to 150% of this city's production.</Text>
+			<Text>Project which provides [ICON_GOLD] Gold every turn equal to 150% of this city's [ICON_PRODUCTION] Production.</Text>
 		</Replace>
 		<!-- = leader ability (Wu Zetian) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_WU_ZETIAN_DESCRIPTION" Language="en_US">
@@ -509,10 +509,10 @@
 		</Replace>
 		<!-- = leader ability (Victoria - Age of Empire) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_PAX_BRITANNICA_DESCRIPTION" Language="en_US">
-			<Text>Cities settled 10 or more tiles from your capital receive a free melee unit. Constructing Royal Navy Dockyard grants you the strongest naval unit you can build. Naval melee units may escort civilian units at their higher movement speed. Gain the Redcoat unique unit when the Military Science technology is researched.[NEWLINE]Lighthouse grants +1 [ICON_GREATADMIRAL] Great Admiral point per turn.</Text>
+			<Text>Cities settled 10 or more tiles from your [ICON_CAPITAL] Capital receive a free melee unit. Constructing [ICON_DISTRICT_ROYAL_NAVY_DOCKYARD] Royal Navy Dockyard grants you the strongest naval unit you can build. Naval melee units may escort civilian units at their higher movement speed. Gain the Redcoat unique unit when the Military Science technology is researched.[NEWLINE]Lighthouse grants +1 [ICON_GREATADMIRAL] Great Admiral point per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Cities settled 10 or more tiles from your capital receive a free melee unit. Constructing Royal Navy Dockyard grants you the strongest naval unit you can build. Naval melee units may escort civilian units at their higher movement speed. Gain the Redcoat unique unit when the Military Science technology is researched.[NEWLINE]Lighthouse grants +1 [ICON_GREATADMIRAL] Great Admiral point per turn.</Text>
+			<Text>Cities settled 10 or more tiles from your [ICON_CAPITAL] Capital receive a free melee unit. Constructing [ICON_DISTRICT_ROYAL_NAVY_DOCKYARD] Royal Navy Dockyard grants you the strongest naval unit you can build. Naval melee units may escort civilian units at their higher movement speed. Gain the Redcoat unique unit when the Military Science technology is researched.[NEWLINE]Lighthouse grants +1 [ICON_GREATADMIRAL] Great Admiral point per turn.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_ABILITY_AOE_MELEE_NAVAL_ESCORT_CIVILIANS_DESC" Language="en_US">
 			<Text>Can escort civilian units at their higher [ICON_MOVEMENT] movement speed.</Text>
@@ -653,7 +653,7 @@
 		</Replace>
 		<!-- = unique district (Oppidum) = -->
 		<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Gaul that is cheaper and available earlier than the district it replaces, the Industrial Zone. The Oppidum district is defensible with a ranged attack.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production adjacency bonus from Quarries and Strategic resources. Triggers a Culture Bomb of unowned territory when completed.</Text>
+			<Text>A district unique to Gaul that is cheaper and available earlier than the district it replaces, the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone. The [ICON_DISTRICT_INDUSTRIAL_ZONE] Oppidum district is defensible with a ranged attack.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production adjacency bonus from Quarries and Strategic resources. Triggers a Culture Bomb of unowned territory when completed.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_ABILITY_GAESATAE_DESCRIPTION" Language="en_US">
@@ -692,7 +692,7 @@
 		</Replace>
 		<!-- = leader ability (Frederick Barbarossa) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="en_US"> <!-- add icon -->
-			<Text>One extra Military policy slot in any [ICON_GOVERNMENT] government.[NEWLINE]+7 [ICON_STRENGTH] Combat Strength versus City-states and Unique Units.[NEWLINE]Hansa receives major adjacency bonus from Encampments.[NEWLINE]Gain the Tiger I unique unit when Combustion is researched.</Text>
+			<Text>One extra Military policy slot in any [ICON_GOVERNMENT] government.[NEWLINE]+7 [ICON_STRENGTH] Combat Strength versus City-states and Unique Units.[NEWLINE][ICON_DISTRICT_HANSA] Hansa receives major adjacency bonus from [ICON_DISTRICT_ENCAMPMENT] Encampments.[NEWLINE]Gain the Tiger I unique unit when Combustion is researched.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_COMBAT_VS_CITY_STATES_DESCRIPTION" Language="en_US">
 			<Text>+7 [ICON_Strength] Combat Strength vs. City-States and Unique Units.</Text>
@@ -711,7 +711,7 @@
 
 		<!-- = leader ability (Ludwig II) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_LUDWIG_DESCRIPTION" Language="en_US"> <!-- add icon -->
-			<Text>[ICON_DISTRICT_WONDER] Wonders (complete and incomplete) receive +1 [ICON_CULTURE] Culture for every adjacent [ICON_DISTRICT] District as adjacency bonus. All [ICON_CULTURE] Culture adjacencies provide [ICON_TOURISM] Tourism with Castles. [NEWLINE]Hansa receives major adjacency bonus from Commercial Hubs.</Text>
+			<Text>[ICON_DISTRICT_WONDER] Wonders (complete and incomplete) receive +1 [ICON_CULTURE] Culture for every adjacent [ICON_DISTRICT] District as adjacency bonus. All [ICON_CULTURE] Culture adjacencies provide [ICON_TOURISM] Tourism with Castles. [NEWLINE]Hansa receives major adjacency bonus from [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs.</Text>
 		</Replace>
 		<!-- = unique district (Hansa) = -->
 		<Replace Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION" Language="en_US">
@@ -739,7 +739,7 @@
 		</Row>
 		<!-- = leader ability (Pericles) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_SURROUNDED_BY_GLORY_DESCRIPTION" Language="en_US">
-			<Text>+5% [ICON_CULTURE] Culture and +5% [ICON_TOURISM] Tourism per City-state you are Suzerain of.[NEWLINE]Awards 1 [ICON_ENVOY] envoy when an Amphitheater is completed.[NEWLINE][NEWLINE]Acropolis receives standard production adjacency from wonders and minor production adjacency from districts.</Text>
+			<Text>+5% [ICON_CULTURE] Culture and +5% [ICON_TOURISM] Tourism per City-state you are Suzerain of.[NEWLINE]Awards 1 [ICON_ENVOY] envoy when an Amphitheater is completed.[NEWLINE][NEWLINE][ICON_DISTRICT_ACROPOLIS] Acropolis receives standard production adjacency from [ICON_DISTRICT_WONDER] Wonders and minor production adjacency from [ICON_DISTRICT] Districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_PERICLES_ACROPOLIS_WONDER_PROD_DESC" Language="en_US">
 			<Text>+2 [ICON_PRODUCTION] Production from adjacent wonder.</Text>
@@ -756,20 +756,20 @@
 			<Text>A district unique to Greece that replaces the Theater Square district and is cheaper to build. Can only be built on Hills.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE]+1 [ICON_CULTURE] Culture for an adjacent City Center.[NEWLINE]+2 [ICON_CULTURE] Culture bonus for each adjacent wonder.</Text>
 		</Replace>	
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION1_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Greece that replaces the Theater Square district and is cheaper to build. Can only be built on Hills.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE]+1 [ICON_CULTURE] Culture for an adjacent City Center.[NEWLINE]+2 [ICON_CULTURE] Culture bonus for each adjacent wonder.</Text>
+			<Text>A district unique to Greece that replaces the [ICON_DISTRICT_THEATER] Theater Square district and is cheaper to build. Can only be built on Hills.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE]+1 [ICON_CULTURE] Culture for an adjacent City Center.[NEWLINE]+2 [ICON_CULTURE] Culture bonus for each adjacent wonder.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Greece that replaces the Theater Square district and is cheaper to build. Can only be built on Hills.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE]+1 [ICON_CULTURE] Culture for an adjacent City Center.[NEWLINE]+2 [ICON_CULTURE] Culture bonus for each adjacent wonder, Entertainment Complex, and  Water Park.</Text>
+			<Text>A district unique to Greece that replaces the [ICON_DISTRICT_THEATER] Theater Square district and is cheaper to build. Can only be built on Hills.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent district.[NEWLINE]+1 [ICON_CULTURE] Culture for an adjacent City Center.[NEWLINE]+2 [ICON_CULTURE] Culture bonus for each adjacent wonder, Entertainment Complex, and  Water Park.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION_ADJACENCY" Language="en_US">
-			<Text>Adjacency: Standard [ICON_CULTURE] Culture bonus for adjacent City Center. Standard [ICON_CULTURE] Culture bonus for each adjacent district. Major [ICON_CULTURE] Culture bonus for each adjacent wonder, Entertainment Complex, or Water Park. Can only be built on Hills.</Text>
+			<Text>Adjacency: Standard [ICON_CULTURE] Culture bonus for adjacent City Center. Standard [ICON_CULTURE] Culture bonus for each adjacent district. Major [ICON_CULTURE] Culture bonus for each adjacent [ICON_DISTRICT_WONDER] Wonder, [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Entertainment Complex, or Water Park. Can only be built on Hills.</Text>
 		</Replace>
 
 
 		<!-- == HUNGARY == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_PRODUCTION] Production to [ICON_DISTRICT] Districts and Buildings constructed directly across a river from a City Center.[NEWLINE][ICON_BULLET]Bias: T4 Rivers, T5 Geothermal Fissures.</Text>
+			<Text>+50% [ICON_PRODUCTION] Production to [ICON_DISTRICT] Districts and Buildings constructed directly across a river from a [ICON_DISTRICT_CITY_CENTER] City Center.[NEWLINE][ICON_BULLET]Bias: T4 Rivers, T5 Geothermal Fissures.</Text>
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION" Language="en_US">
@@ -847,13 +847,13 @@
 		</Replace>
 		<!-- = leader ability (Gandhi) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="en_US">
-			<Text>Grants an extra belief when founding a [ICON_RELIGION] Religion. +5 [ICON_FAITH] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Settlers and Builders produced in cities with a Holy Site receive +1 [ICON_MOVEMENT] Movement. Opposing civilizations receive +50% war weariness for fighting against Gandhi.</Text>
+			<Text>Grants an extra belief when founding a [ICON_RELIGION] Religion. +5 [ICON_FAITH] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Settlers and Builders produced in cities with a [ICON_DISTRICT_HOLY_SITE] Holy Site receive +1 [ICON_MOVEMENT] Movement. Opposing civilizations receive +50% war weariness for fighting against Gandhi.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_SATYAGRAHA_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Grants an extra belief when founding a [ICON_RELIGION] Religion. +5 [ICON_FAITH] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Settlers and Builders produced in cities with a Holy Site receive +1 [ICON_MOVEMENT] Movement. Opposing civilizations receive +50% war weariness for fighting against Gandhi.</Text>
+			<Text>Grants an extra belief when founding a [ICON_RELIGION] Religion. +5 [ICON_FAITH] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Settlers and Builders produced in cities with a [ICON_DISTRICT_HOLY_SITE] Holy Site receive +1 [ICON_MOVEMENT] Movement. Opposing civilizations receive +50% war weariness for fighting against Gandhi.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_ABILITY_GANDHI_SETTLER_BUILDER_MOVEMENT_DESC" Language="en_US">
-			<Text>+1 [ICON_MOVEMENT] Movement from Holy Site</Text>
+			<Text>+1 [ICON_MOVEMENT] Movement from [ICON_DISTRICT_HOLY_SITE] Holy Site</Text>
 		</Row>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="en_US">
@@ -926,7 +926,7 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Holy Sites grant +1 [ICON_FOOD] Food and +2 [ICON_HOUSING] Housing if built adjacent to a River.</Text>
+			<Text>[ICON_DISTRICT_HOLY_SITE] Holy Sites grant +1 [ICON_FOOD] Food and +2 [ICON_HOUSING] Housing if built adjacent to a River.</Text>
 		</Replace>
 		<Row Tag="LOC_DISTRICT_HOLY_SITE_RIVER_FAITH" Language="en_US">
 			<Text>+{1_num} [ICON_FAITH] Faith from the river.</Text>
@@ -950,24 +950,24 @@
 		</Replace>
 		<!-- = leader ability (Mvemba a Nzinga) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_RELIGIOUS_CONVERT_DESCRIPTION" Language="en_US">
-			<Text>May not build Holy Site districts, gain [ICON_GreatProphet] Great Prophets, or found Religions. Receives +0.2 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold per citizen in a city following any religion. Receives an Apostle (of that city's majority Religion) each time he finishes a Mbanza or Theater Square district.[NEWLINE][NEWLINE]Once you enter the classical era, all land combat units and [ICON_GreatGeneral] Great Generals ignore the Rainforest and Woods [ICON_MOVEMENT] Movement penalty.[NEWLINE][NEWLINE]+1 [ICON_GreatGeneral] Great General points on barracks or stables. Rainforest and Woods tiles adjacent to an Encampment receive +1 [ICON_PRODUCTION] Production. These tiles also receive +1 [ICON_FOOD] Food once the city has constructed a Mbanza.</Text>
+			<Text>May not build [ICON_DISTRICT_HOLY_SITE] Holy Site districts, gain [ICON_GreatProphet] Great Prophets, or found Religions. Receives +0.2 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold per citizen in a city following any religion. Receives an Apostle (of that city's majority Religion) each time he finishes a [ICON_DISTRICT_MBANZA] Mbanza or [ICON_DISTRICT_THEATER] Theater Square district.[NEWLINE][NEWLINE]Once you enter the classical era, all land combat units and [ICON_GreatGeneral] Great Generals ignore the Rainforest and Woods [ICON_MOVEMENT] Movement penalty.[NEWLINE][NEWLINE]+1 [ICON_GreatGeneral] Great General points on barracks or stables. Rainforest and Woods tiles adjacent to an Encampment receive +1 [ICON_PRODUCTION] Production. These tiles also receive +1 [ICON_FOOD] Food once the city has constructed a [ICON_DISTRICT_MBANZA] Mbanza.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_IGNORE_WOODS_ABILITY_DESCRIPTION" Language="en_US">
 			<Text>Ignores Rainforest and Woods [ICON_MOVEMENT] Movement penalty (Mvemba a Nzinga).</Text>
 		</Row>
 		<!-- = leader ability (Nzinga Mbande) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_NZINGA_MBANDE_DESCRIPTION" Language="en_US">
-			<Text>+15% [ICON_GOLD] Gold and 15% [ICON_CULTURE] Culture in cities with a Mbanza (does not stack with multiples). Mbanza provides +2 adjacency to Theater Squares and Commercial Hubs. Archaeologists are 50% cheaper to purchase.[NEWLINE][NEWLINE]All civilian units ignore the Rainforest and Woods [ICON_MOVEMENT] Movement penalty.[NEWLINE][NEWLINE]Receive 50% more [ICON_GreatMerchant] Great Merchant points.</Text>
+			<Text>+15% [ICON_GOLD] Gold and 15% [ICON_CULTURE] Culture in cities with a [ICON_DISTRICT_MBANZA] Mbanza (does not stack with multiples). Mbanza provides +2 adjacency to [ICON_DISTRICT_THEATER] Theater Squares and [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hubs. Archaeologists are 50% cheaper to purchase.[NEWLINE][NEWLINE]All civilian units ignore the Rainforest and Woods [ICON_MOVEMENT] Movement penalty.[NEWLINE][NEWLINE]Receive 50% more [ICON_GreatMerchant] Great Merchant points.</Text>
 		</Replace>
 		<Row Tag="BBG_LOC_MBANDE_COMMERCIAL_MBANZA" Language="en_US">
-			<Text>+{1_num} [ICON_GOLD] Gold per adjacent Mbanza.</Text>
+			<Text>+{1_num} [ICON_GOLD] Gold per adjacent [ICON_DISTRICT_MBANZA] Mbanza.</Text>
 		</Row>
 		<Row Tag="BBG_LOC_MBANDE_THEATRE_MBANZA" Language="en_US">
-			<Text>+{1_num} [ICON_CULTURE] Culture per adjacent Mbanza.</Text>
+			<Text>+{1_num} [ICON_CULTURE] Culture per adjacent [ICON_DISTRICT_MBANZA] Mbanza.</Text>
 		</Row>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_MBANZA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Kongo that can only be constructed in Rainforest or Woods. Replaces the Neighborhood district but is available earlier and cheaper to build. Provides +5 [ICON_HOUSING] Housing, +2 [ICON_FOOD] Food, and +4 [ICON_GOLD] Gold, regardless of Appeal.</Text>
+			<Text>A district unique to Kongo that can only be constructed in Rainforest or Woods. Replaces the [ICON_DISTRICT_MBANZA] Neighborhood district but is available earlier and cheaper to build. Provides +5 [ICON_HOUSING] Housing, +2 [ICON_FOOD] Food, and +4 [ICON_GOLD] Gold, regardless of Appeal.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_KONGO_SHIELD_BEARER_DESCRIPTION" Language="en_US">
@@ -981,19 +981,19 @@
 		<!-- == KOREA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION" Language="en_US">
-			<Text>Mines receive +1 [ICON_SCIENCE] Science for every adjacent Seowon district. Farms receive +1 [ICON_FOOD] Food for every adjacent Seowon district.[NEWLINE][ICON_BULLET]Bias: T4 Grassland and Plains Hills</Text>
+			<Text>Mines receive +1 [ICON_SCIENCE] Science for every adjacent [ICON_DISTRICT_CAMPUS] Seowon district. Farms receive +1 [ICON_FOOD] Food for every adjacent [ICON_DISTRICT_CAMPUS] Seowon district.[NEWLINE][ICON_BULLET]Bias: T4 Grassland and Plains Hills</Text>
 		</Replace>
 		<!-- = leader ability (Sejong) -->
 		<Replace Tag="LOC_TRAIT_LEADER_SEJONG_DESCRIPTION" Language="en_US">
-			<Text>When you complete your first Technology from a new Era, receive your [ICON_SCIENCE] Science per turn as [ICON_CULTURE] Culture. Seowons receive -1 [ICON_SCIENCE] Science for each adjacent District. Seowons and Theater Squares receive major adjacency from each other. Cities with a Seowon and a Theater Square receive +1 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism per district. +30% [ICON_PRODUCTION] Production toward builders after Feudalism.</Text>
+			<Text>When you complete your first Technology from a new Era, receive your [ICON_SCIENCE] Science per turn as [ICON_CULTURE] Culture. [ICON_DISTRICT_CAMPUS] Seowons receive -1 [ICON_SCIENCE] Science for each adjacent [ICON_DISTRICT] District. [ICON_DISTRICT_CAMPUS] Seowons and [ICON_DISTRICT_THEATER] Theater Squares receive major adjacency from each other. Cities with a [ICON_DISTRICT_CAMPUS] Seowon and a [ICON_DISTRICT_THEATER] Theater Square receive +1 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism per district. +30% [ICON_PRODUCTION] Production toward builders after Feudalism.</Text>
 		</Replace>
 		<!-- = leader ability (Seondeok) -->
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_AMENITIES] Amenity for cities with a [ICON_GOVERNOR] Governor.[NEWLINE]+30% yield to Seowon buildings for each [ICON_GOVERNOR] Governor promotion in the city.[NEWLINE]When you unlock Feudalism, cities you founded without a [ICON_GOVERNOR] Governor receive -10% to all yields. +1 [ICON_GOVERNOR] Governor Title at Feudalism.</Text>
+			<Text>+1 [ICON_AMENITIES] Amenity for cities with a [ICON_GOVERNOR] Governor.[NEWLINE]+30% yield to [ICON_DISTRICT_CAMPUS] Seowon buildings for each [ICON_GOVERNOR] Governor promotion in the city.[NEWLINE]When you unlock Feudalism, cities you founded without a [ICON_GOVERNOR] Governor receive -10% to all yields. +1 [ICON_GOVERNOR] Governor Title at Feudalism.</Text>
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Korea that replaces the Campus and has unique adjacencies. Culture bombs adjacent tiles when completed. Science Specialists grant +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+1 [ICON_SCIENCE] Science base adjacency.[NEWLINE]+1 [ICON_SCIENCE] Science for every 2 adjacent mines.[NEWLINE]+2 [ICON_SCIENCE] Science for each adjacent Geothermal Fissure.</Text>
+			<Text>A district unique to Korea that replaces the [ICON_DISTRICT_CAMPUS] Campus and has unique adjacencies. Culture bombs adjacent tiles when completed. Science Specialists grant +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+1 [ICON_SCIENCE] Science base adjacency.[NEWLINE]+1 [ICON_SCIENCE] Science for every 2 adjacent mines.[NEWLINE]+2 [ICON_SCIENCE] Science for each adjacent Geothermal Fissure.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_ADJACENCY" Language="en_US">
 			<Text>Adjacency: +1 [ICON_SCIENCE] Science for every 2 adjacent mines. +2 [ICON_SCIENCE] Science for each adjacent Geothermal Fissure.</Text>
@@ -1149,7 +1149,7 @@
 		<!-- == MAYA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION" Language="en_US">
-			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing. The Palace receives +1 [ICON_HOUSING] Housing. +1 [ICON_AMENITIES] Amenity for every Luxury adjacent to the City Center.[NEWLINE][NEWLINE]Farms provides an additional +1 [ICON_HOUSING] Housing, +1 [ICON_PRODUCTION] Production for every adjacent Observatory, and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Plantations provide +1 [ICON_SCIENCE] Science for each adjacent Observatory and an additional +1 [ICON_SCIENCE] Science with Education.[NEWLINE][NEWLINE][ICON_BULLET]Bias: T3 Plantation Luxuries, T4 Bananas. Special "Hydrophobic".</Text>
+			<Text>Settling adjacent to Fresh Water and Coast does not provide extra [ICON_HOUSING] Housing. The Palace receives +1 [ICON_HOUSING] Housing. +1 [ICON_AMENITIES] Amenity for every Luxury adjacent to the [ICON_DISTRICT_CITY_CENTER] City Center.[NEWLINE][NEWLINE]Farms provides an additional +1 [ICON_HOUSING] Housing, +1 [ICON_PRODUCTION] Production for every adjacent [ICON_DISTRICT_CAMPUS] Observatory, and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Plantations provide +1 [ICON_SCIENCE] Science for each adjacent [ICON_DISTRICT_CAMPUS] Observatory and an additional +1 [ICON_SCIENCE] Science with Education.[NEWLINE][NEWLINE][ICON_BULLET]Bias: T3 Plantation Luxuries, T4 Bananas. Special "Hydrophobic".</Text>
 		</Replace>
 		<!-- = leader ability (Lady Six Sky) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MUTAL_DESCRIPTION" Language="en_US">
@@ -1416,7 +1416,7 @@
 		</Replace>
 		<!-- = leader ability (Julius Caesar) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_CAESAR_DESCRIPTION" Language="en_US">
-			<Text>Melee, Siege, Ranged and Heavy Cavalry units receive +50% Combat Experience, increasing to +100% when entering the Medieval Era. These units receive +1 Combat Strength per promotion received.[NEWLINE][NEWLINE]Receive a free melee unit each time you found a non-capital city and in your capital after researching Code of Laws.[NEWLINE][NEWLINE]Gain an extra Wildcard Policy slot when capturing and retaining at least one city founded by a major civilization and owned by a major civilization at the time of capture (maximum 1 extra wildcard slot).[NEWLINE][NEWLINE]Gain the Onager unique unit when Engineering is researched.</Text>
+			<Text>Melee, Siege, Ranged and Heavy Cavalry units receive +50% Combat Experience, increasing to +100% when entering the Medieval Era. These units receive +1 Combat Strength per promotion received.[NEWLINE][NEWLINE]Receive a free melee unit each time you found a non-capital city and in your [ICON_CAPITAL] Capital after researching Code of Laws.[NEWLINE][NEWLINE]Gain an extra Wildcard Policy slot when capturing and retaining at least one city founded by a major civilization and owned by a major civilization at the time of capture (maximum 1 extra wildcard slot).[NEWLINE][NEWLINE]Gain the Onager unique unit when Engineering is researched.</Text>
 		</Replace>
 		<Replace Tag="LOC_BBG_CAESAR_DOUBLE_XP_BONUS_MODIFIER_NAME" Language="en_US">
 			<Text>+100% Combat Experience (Veni, Vidi, Vici)</Text>
@@ -1432,7 +1432,7 @@
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Rome for city growth. Replaces the Aqueduct district and cheaper to build.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Bath provides an additional bonus of +2 [ICON_Housing] Housing. +1 [ICON_CULTURE] Culture from every adjacent districts. Must be built adjacent to the City Center.</Text>
+			<Text>A district unique to Rome for city growth. Replaces the [ICON_DISTRICT_AQUEDUCT] Aqueduct district and cheaper to build.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Bath provides an additional bonus of +2 [ICON_Housing] Housing. +1 [ICON_CULTURE] Culture from every adjacent districts. Must be built adjacent to the [ICON_DISTRICT_CITY_CENTER] City Center.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_ROMAN_LEGION_DESCRIPTION" Language="en_US"> <!-- charge icon -->
@@ -1586,10 +1586,10 @@
 			<Text>Coral Construction</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SUK_CORAL_CONSTRUCTION_DESCRIPTION" Language="en_US">
-			<Text>Coastal cities gain +25% [ICON_PRODUCTION] Production toward districts.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for unimproved reef tiles with Sailing.[NEWLINE][NEWLINE]Bias: T1 Coast.</Text>
+			<Text>Coastal cities gain +25% [ICON_PRODUCTION] Production toward [ICON_DISTRICT] Districts.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for unimproved reef tiles with Sailing.[NEWLINE][NEWLINE]Bias: T1 Coast.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SUK_CORAL_CONSTRUCTION_DESCRIPTION_XP1" Language="en_US">
-			<Text>Coastal cities gain +25% [ICON_PRODUCTION] Production toward districts.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for unimproved reef tiles with Sailing.[NEWLINE][NEWLINE]Bias: T1 Coast.</Text>
+			<Text>Coastal cities gain +25% [ICON_PRODUCTION] Production toward [ICON_DISTRICT] Districts.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production for unimproved reef tiles with Sailing.[NEWLINE][NEWLINE]Bias: T1 Coast.</Text>
 		</Replace>
 		<!-- = Leader ability -->
 		<Replace Tag="LOC_TRAIT_LEADER_SUK_HUSUNI_KUBWA_NAME" Language="en_US">
@@ -1670,7 +1670,7 @@
 			<Text>Pochteca Enclave</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_LIME_TEO_TOLLAN_DESC" Language="en_US">
-			<Text>Unlocked at State Workforce and replaces the Diplomatic Quarter.[NEWLINE]+1 [ICON_ENVOY] Envoy when built next to a city center.[NEWLINE]Grants a [ICON_GOVERNOR] Governor Title when first completed.[NEWLINE][NEWLINE]Does not count towards district limit based on [ICON_CITIZEN] population and does not provide yields on internal [ICON_TRADEROUTE] trade routes.</Text>
+			<Text>Unlocked at State Workforce and replaces the Diplomatic Quarter.[NEWLINE]+1 [ICON_ENVOY] Envoy when built next to a [ICON_DISTRICT_CITY_CENTER] city center.[NEWLINE]Grants a [ICON_GOVERNOR] Governor Title when first completed.[NEWLINE][NEWLINE]Does not count towards district limit based on [ICON_CITIZEN] population and does not provide yields on internal [ICON_TRADEROUTE] trade routes.</Text>
 		</Replace>
        
 
@@ -1784,7 +1784,7 @@
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_IKANDA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Zulu which replaces the Encampment. Provides +1 [ICON_HOUSING] Housing. Buildings in the Ikanda receive +2 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.[NEWLINE]Once required Civics are unlocked, allows [ICON_CORPS] Corps or [ICON_ARMY] Armies to be trained directly and their costs are reduced by 5%, increasing by an additional 5% at Mercenaries, 5% at Nationalism, 5% at Mobilization, and 5% at Ideology.</Text>
+			<Text>A district unique to Zulu which replaces the [ICON_DISTRICT_ENCAMPMENT] Encampment. Provides +1 [ICON_HOUSING] Housing. Buildings in the [ICON_DISTRICT_ENCAMPMENT] Ikanda receive +2 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture.[NEWLINE]Once required Civics are unlocked, allows [ICON_CORPS] Corps or [ICON_ARMY] Armies to be trained directly and their costs are reduced by 5%, increasing by an additional 5% at Mercenaries, 5% at Nationalism, 5% at Mobilization, and 5% at Ideology.</Text>
 		</Replace>
 		
 		
