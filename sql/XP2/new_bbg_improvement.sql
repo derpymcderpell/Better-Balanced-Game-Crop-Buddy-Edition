@@ -44,10 +44,10 @@ INSERT INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequi
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
     ('BBG_LUMBER_MILL_PROD_FLAT_TILE', 'Amount', '1'),
     ('BBG_LUMBER_MILL_PROD_FLAT_TILE', 'YieldType', 'YIELD_PRODUCTION');
-INSERT INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
-	('BBG_PLOT_IS_FLAT', 'REQUIREMENTSET_TEST_ANY');
-INSERT INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
-	('BBG_PLOT_IS_FLAT', 'REQUIRES_PLOT_IS_FLAT');
+--INSERT OR IGNORE INTO RequirementSets(RequirementSetId , RequirementSetType) VALUES
+--	('BBG_PLOT_IS_FLAT', 'REQUIREMENTSET_TEST_ANY');
+--INSERT OR IGNORE INTO RequirementSetRequirements(RequirementSetId , RequirementId) VALUES
+--	('BBG_PLOT_IS_FLAT', 'REQUIRES_PLOT_IS_FLAT');
 
 INSERT INTO ImprovementModifiers(ImprovementType, ModifierID) VALUES
     ('IMPROVEMENT_LUMBER_MILL', 'BBG_LUMBER_MILL_PROD_FLAT_TILE');
