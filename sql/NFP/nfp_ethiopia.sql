@@ -40,7 +40,7 @@ INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, Til
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_MINE_YIELD', '+1 [ICON_PRODUCTION] Production from adjacent mine on a resource.', 'YIELD_PRODUCTION', 1, 1, 'IMPROVEMENT_MINE', 1),
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_OFFSHORE_OIL_RIG_YIELD', '+2 [ICON_PRODUCTION] Production from adjacent offshore oil rig on a resource.', 'YIELD_PRODUCTION', 2, 1, 'IMPROVEMENT_OFFSHORE_OIL_RIG', 1),
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_OIL_WELL_YIELD', '+2 [ICON_PRODUCTION] Production from adjacent oil wells on a resource.', 'YIELD_PRODUCTION', 2, 1, 'IMPROVEMENT_OIL_WELL', 1),*/
-    ('BBG_ROCH_HEWN_CHURCH_RESOURCE_PASTURE_YIELD', '+1 [ICON_FOOD] Food from adjacent pastures on a resource.', 'YIELD_FOOD', 1, 1, 'IMPROVEMENT_PASTURE', 1),
+    ('BBG_ROCH_HEWN_CHURCH_RESOURCE_PASTURE_YIELD', '+1 [ICON_FOOD] Food from adjacent pastures on a resource.', 'YIELD_FOOD', 1, 1, 'IMPROVEMENT_PASTURE', 1);
     /*('BBG_ROCH_HEWN_CHURCH_RESOURCE_PLANTATION_YIELD', '+2 [ICON_GOLD] Gold from adjacent plantations on a resource.', 'YIELD_GOLD', 1, 1, 'IMPROVEMENT_PLANTATION', 1),
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_QUARRY_YIELD', '+1 [ICON_PRODUCTION] Production from adjacent quarries on a resource.', 'YIELD_PRODUCTION', 1, 1, 'IMPROVEMENT_QUARRY', 1);*/
 INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId) VALUES
