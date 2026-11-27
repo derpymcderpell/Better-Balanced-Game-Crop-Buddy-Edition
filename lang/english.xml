@@ -604,7 +604,7 @@
 		</Replace>
 		<!-- = leader ability (Magnificence) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MAGNIFICENCES_DESCRIPTION" Language="en_US">
-			<Text>Improved resources provide additional bonus yields:[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture when adjacent to a Chateau.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture when adjacent to a [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_BULLET]+1 [ICON_AMENITIES] Amenity when adjacent to a Chateau (luxury resources only).[NEWLINE][NEWLINE]Happy cities gain +5% Culture, doubled if the city is ecstatic, tripled if the city is euphoric (+8 amenity).[NEWLINE][NEWLINE]Unlucks the Court Festival unique project at Medieval Faires in cities with a [ICON_DISTRICT_THEATER] Theater Square, increasing [ICON_TOURISM] Tourism across France by 5%.</Text>
+			<Text>Improved resources provide additional bonus yields:[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture when adjacent to a Chateau.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture when adjacent to a [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_BULLET]+1 [ICON_AMENITIES] Amenity when adjacent to a Chateau (luxury resources only).[NEWLINE][ICON_BULLET]+50% [ICON_TOURISM] Tourism after unlocking Opera and Ballet.[NEWLINE][NEWLINE]Happy cities gain +5% Culture, doubled if the city is ecstatic, tripled if the city is euphoric (+8 amenity).[NEWLINE][NEWLINE]Unlucks the Court Festival unique project at Medieval Faires in cities with a [ICON_DISTRICT_THEATER] Theater Square, increasing [ICON_TOURISM] Tourism across France by 5%.</Text>
 		</Replace>
 		<!-- = unique project (Magnificence) = -->
 		<Replace Tag="LOC_PROJECT_ECOURT_FESTIVAL_DESCRIPTION" Language="en_US">
