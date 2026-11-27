@@ -32,7 +32,7 @@ UPDATE Modifiers SET ModifierType='MODIFIER_PLAYER_ADJUST_PLOT_YIELD', SubjectRe
 */
 
 -- UI absorbs adjacent resource yields
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement, AdjacentResource) VALUES
+/*INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentImprovement, AdjacentResource) VALUES
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_FARM_YIELD', '+1 [ICON_FOOD] Food from adjacent farms on a resource.', 'YIELD_FOOD', 1, 1, 'IMPROVEMENT_FARM', 1),
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_CAMP_YIELD', '+2 [ICON_FOOD] Gold from adjacent camps on a resource.', 'YIELD_GOLD', 2, 1, 'IMPROVEMENT_CAMP', 1),
     ('BBG_ROCH_HEWN_CHURCH_RESOURCE_FISHING_BOAT_YIELD', '+1 [ICON_FOOD] Food from adjacent fishing boats on a resource.', 'YIELD_FOOD', 1, 1, 'IMPROVEMENT_FISHING_BOAT', 1),
@@ -53,7 +53,7 @@ INSERT INTO Improvement_Adjacencies (ImprovementType, YieldChangeId) VALUES
     ('IMPROVEMENT_ROCK_HEWN_CHURCH', 'BBG_ROCH_HEWN_CHURCH_RESOURCE_OIL_WELL'),
     ('IMPROVEMENT_ROCK_HEWN_CHURCH', 'BBG_ROCH_HEWN_CHURCH_RESOURCE_PASTURE'),
     ('IMPROVEMENT_ROCK_HEWN_CHURCH', 'BBG_ROCH_HEWN_CHURCH_RESOURCE_PLANTATION'),
-    ('IMPROVEMENT_ROCK_HEWN_CHURCH', 'BBG_ROCH_HEWN_CHURCH_RESOURCE_QUARRY');
+    ('IMPROVEMENT_ROCK_HEWN_CHURCH', 'BBG_ROCH_HEWN_CHURCH_RESOURCE_QUARRY');*/
 
 -- Delete Base Trait
 DELETE FROM TraitModifiers WHERE TraitType='TRAIT_CIVILIZATION_ETHIOPIA' AND ModifierId='TRAIT_FAITH_RESOURCES';
