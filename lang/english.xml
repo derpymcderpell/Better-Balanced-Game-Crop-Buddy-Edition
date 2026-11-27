@@ -1484,11 +1484,11 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION" Language="en_US">
-			<Text>All units receive +2 [ICON_STRENGTH] Combat Strength when attacking wounded units, increasing to +4 [ICON_STRENGTH] Combat Strength after you enter the Medieval Era. When they eliminate a unit, they heal up to 30 hit points.</Text>
+			<Text>All units receive +2 [ICON_STRENGTH] Combat Strength when attacking wounded units, increasing to +3 [ICON_STRENGTH] Combat Strength after you enter the Medieval Era. When they eliminate a unit, they heal up to 30 hit points.</Text>
 		</Replace>
 		<!-- = unit bonus after stirrups = -->		
 		<Row Tag="LOC_BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_STIRRUPS_MODIFIER_DESC" Language="en_US">
-			<Text>+5 [ICON_STRENGTH] Combat Strength when attacking wounded units.</Text>
+			<Text>+3 [ICON_STRENGTH] Combat Strength when attacking wounded units.</Text>
 		</Row>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION" Language="en_US">
