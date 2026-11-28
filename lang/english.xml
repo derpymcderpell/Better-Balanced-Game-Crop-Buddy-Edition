@@ -922,7 +922,7 @@
 		<!-- == KHMER == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Cities with an [ICON_DISTRICT_AQUEDUCT] Aqueduct receive +1 [ICON_AMENITIES] Amenity. Farms provide +2 [ICON_FOOD] Food if adjacent to an [ICON_DISTRICT_AQUEDUCT] Aqueduct and +1 [ICON_FAITH] Faith if adjacent to a [ICON_DISTRICT_HOLY_SITE] Holy Site.[NEWLINE][ICON_BULLET]Bias: T3 Rivers.</Text>
+			<Text>Cities with an [ICON_DISTRICT_AQUEDUCT] Aqueduct receive +1 [ICON_AMENITIES] Amenity. Farms provide +2 [ICON_FOOD] Food if adjacent to an [ICON_DISTRICT_AQUEDUCT] Aqueduct and +1 [ICON_FAITH] Faith if adjacent to a [ICON_DISTRICT_HOLY_SITE] Holy Site. [ICON_DISTRICT_HOLY_SITE] Holy Sites culture bomb upon completion.[NEWLINE][ICON_BULLET]Bias: T3 Rivers.</Text>
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_EXPANSION2_DESCRIPTION" Language="en_US">
