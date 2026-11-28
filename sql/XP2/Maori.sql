@@ -76,7 +76,7 @@ INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 DELETE FROM TraitModifiers WHERE TraitType='TRAIT_LEADER_KUPES_VOYAGE' AND ModifierId='CAPITAL_ENTERTAINMENT';
 
 -- 07/08/26 remove ability : culture bomb on boat
-DELETE FROM TraitModifiers WHERE TraitType='TRAIT_CIVILIZATION_MAORI_MANA' AND ModifierId='TRAIT_MAORI_FISHING_BOAT_CULTURE_BOMB';
+--DELETE FROM TraitModifiers WHERE TraitType='TRAIT_CIVILIZATION_MAORI_MANA' AND ModifierId='TRAIT_MAORI_FISHING_BOAT_CULTURE_BOMB';
 
 -- 04/07/26 Fort, Roman Fort and PA : Add one prod and one gold
 INSERT INTO Improvement_YieldChanges (ImprovementType, YieldType, YieldChange) VALUES
