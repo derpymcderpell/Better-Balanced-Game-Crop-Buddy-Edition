@@ -586,10 +586,10 @@
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_DESCRIPTION" Language="en_US">
-			<Text>Ethiopian unique builder improvement unlocked with Drama and Poetry. Can only be built on Hills or Volcanic Soil not adjacent to another Rock-Hewn Church.[NEWLINE][NEWLINE]+1 [ICON_FAITH] Faith for every adjacent Mountain and Hills tile.[NEWLINE]+1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
+			<Text>Ethiopian unique Builder improvement unlocked with Drama and Poetry. Can only be built on Hills or Volcanic Soil and limited to one per city.[NEWLINE][NEWLINE]+1 [ICON_FAITH] Faith for every adjacent Mountain and Hills tile.[NEWLINE]Absorbs yields from each type of Resource improved in this city.[NEWLINE]+1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Ethiopian unique builder improvement unlocked with Drama and Poetry. Can only be built on Hills or Volcanic Soil not adjacent to another Rock-Hewn Church. Can only be pillaged (never destroyed) by natural disasters.[NEWLINE][NEWLINE]+1 [ICON_FAITH] Faith for every adjacent Mountain and Hills tile.[NEWLINE]+1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
+			<Text>Ethiopian unique Builder improvement unlocked with Drama and Poetry. Can only be built on Hills or Volcanic Soil and limited to one per city.[NEWLINE][NEWLINE]+1 [ICON_FAITH] Faith for every adjacent Mountain and Hills tile.[NEWLINE]Absorbs yields from each type of Resource improved in this city.[NEWLINE]+1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism from [ICON_FAITH] Faith after researching Flight.</Text>
 		</Replace>
 
 
