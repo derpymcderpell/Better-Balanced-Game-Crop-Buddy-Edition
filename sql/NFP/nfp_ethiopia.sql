@@ -31,7 +31,9 @@ UPDATE Improvement_YieldChanges SET YieldChange=0 WHERE ImprovementType='IMPROVE
 UPDATE Modifiers SET ModifierType='MODIFIER_PLAYER_ADJUST_PLOT_YIELD', SubjectRequirementSetId='STAVE_CHURCH_RESOURCE_REQUIREMENTS' WHERE ModifierId='TRAIT_FAITH_RESOURCES';
 */
 
--- UI absorbs adjacent resource yields
+-- UI absorbs adjacent resource yields and one per city
+
+UPDATE Improvements SET OnePerCity=1, SameAdjacentValid=1 WHERE ImprovementType='IMPROVEMENT_ROCK_HEWN_CHURCH';
     
 INSERT OR IGNORE INTO Modifiers(ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) SELECT
     'BBG_ETHIOPIAN_CITY_HAS_IMPROVED_' || Resources.ResourceType, 'MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS', 0, 0, 'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQSET' FROM Resources WHERE NOT Resources.ResourceType='BBG_DUMMY_RESOURCE_MACEDON';
