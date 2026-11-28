@@ -94,18 +94,20 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
     ('TRAIT_LEADER_RAMSES', 'BBG_RAMSES_RIVER_PRODUCTION_HS');
 
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_RAMSES_HS_IZ_FAITH', 'BBG_RAMSES_HS_IZ_FAITH_DESC', 'YIELD_FAITH', 1, 'DISTRICT_INDUSTRIAL_ZONE');
+-- November 27, 2026: HS IZ standard adj
+-- November 28, 2026: Sphinxes grant adj instead
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentImprovement) VALUES
+    ('BBG_RAMSES_HS_IZ_FAITH', '+1 [ICON_FAITH] Faith from adjacent sphinxes.', 'YIELD_FAITH', 1, 'IMPROVEMENT_SPHINX');
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
-    ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_HS_IZ_FAITH');
+    ('DISTRICT_HOLY_SITE', 'BBG_RAMSES_HS_IZ_FAITH');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
    SELECT TraitType, 'BBG_RAMSES_HS_IZ_FAITH' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_EGYPT' GROUP BY CivilizationType;
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_HS_IZ_FAITH'),
 	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_HS_IZ_FAITH');
 
-INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentDistrict) VALUES
-    ('BBG_RAMSES_IZ_HS_PROD', 'BBG_RAMSES_IZ_HS_PROD_DESC', 'YIELD_PRODUCTION', 1, 'DISTRICT_HOLY_SITE');
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, AdjacentImprovement) VALUES
+    ('BBG_RAMSES_IZ_HS_PROD', '+1 [ICON_PRODUCTION] Production from adjacent sphinxes.', 'YIELD_PRODUCTION', 1, 'IMPROVEMENT_SPHINX');
 INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
     ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_IZ_HS_PROD');
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
@@ -113,3 +115,19 @@ INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
 INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
 	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_IZ_HS_PROD'),
 	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_IZ_HS_PROD');
+
+-- November 28, 2026: Sphinxes get food from 2 HS and prod from 2 IZ
+INSERT INTO Adjacency_YieldChanges (ID, Description, YieldType, YieldChange, TilesRequired, AdjacentDistrict, PrereqCivic, PrereqTech) VALUES
+    ('BBG_RAMSES_SPHINX_FOOD_FROM_HS', '+1 [ICON_FOOD] Food from every 2 adjacent [ICON_DISTRICT_HOLY_SITE] Holy Sites.', 'YIELD_FOOD', 1, 2, 'DISTRICT_HOLY_SITE', 'CIVIC_MEDIEVAL_FAIRES', NULL),
+    ('BBG_RAMSES_SPHINX_PRODUCTION_FROM_IZ', '+1 [ICON_PRODUCTION] Production from every 2 adjacent [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones.', 'YIELD_PRODUCTION', 1, 2, 'DISTRICT_INDUSTRIAL_ZONE', NULL, 'TECH_MACHINERY');
+INSERT INTO District_Adjacencies (DistrictType, YieldChangeId) VALUES
+    ('DISTRICT_HOLY_SITE', 'BBG_RAMSES_SPHINX_FOOD_FROM_HS'),
+    ('DISTRICT_INDUSTRIAL_ZONE', 'BBG_RAMSES_SPHINX_PRODUCTION_FROM_IZ');
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId)
+   SELECT TraitType, 'BBG_RAMSES_SPHINX_FOOD_FROM_HS' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_EGYPT' GROUP BY CivilizationType UNION
+   SELECT TraitType, 'BBG_RAMSES_SPHINX_PRODUCTION_FROM_IZ' FROM CivilizationTraits WHERE CivilizationType != 'CIVILIZATION_EGYPT' GROUP BY CivilizationType;
+INSERT INTO ExcludedAdjacencies(TraitType, YieldChangeId) VALUES
+	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_SPHINX_FOOD_FROM_HS'),
+	('TRAIT_LEADER_CLEOPATRA_ALT', 'BBG_RAMSES_SPHINX_PRODUCTION_FROM_IZ'),
+	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_SPHINX_FOOD_FROM_HS'),
+	('TRAIT_LEADER_MEDITERRANEAN', 'BBG_RAMSES_SPHINX_PRODUCTION_FROM_IZ');
