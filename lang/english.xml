@@ -568,7 +568,7 @@
 		<!-- == ETHIOPIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION" Language="en_US">
-			<Text>Ethiopia's International Trade Routes grant +0.5 [ICON_FAITH] Faith per resource at the origin. Improved Resources provide +1 [ICON_FAITH] Faith after unlocking Political Philosophy. Can purchase Archaeological Museums and Archaeologists with [ICON_FAITH] Faith.[NEWLINE][ICON_BULLET]Bias: T3 Grassland and Plains Hills.</Text>
+			<Text>Ethiopia's International [ICON_TRADEROUTE] Trade Routes grant +0.5 [ICON_FAITH] Faith per Resource at the origin. Improved Resources provide +1 [ICON_FAITH] Faith after unlocking Drama and Poetry.[NEWLINE][NEWLINE]Can purchase Archaeological Museums and Archaeologists with [ICON_FAITH] Faith. Archaeologists receive +2 [ICON_MOVEMENT] Movement.[NEWLINE][ICON_BULLET]Bias: T3 Grassland and Plains Hills. Always spawns on a hill tile.</Text>
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MENELIK_DESCRIPTION" Language="en_US">
