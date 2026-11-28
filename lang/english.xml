@@ -324,7 +324,7 @@
 		</Replace>
 		<!-- = leader ability (Qin Shi Huang, Unifier) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" Language="en_US">
-			<Text>Melee units receive the Convert Barbarians action, which consumes the melee unit.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production towards and +1 [ICON_FOOD] Food from [ICON_DISTRICT_ENCAMPMENT] Encampment buildings.[NEWLINE][NEWLINE]+1 [ICON_GreatWriter] Great Writer point from [ICON_DISTRICT_ENCAMPMENT] Encampments. Barracks, Stables, and Armory buildings provide 2 slots for [ICON_GreatWork_WRITING] Great Works of Writing. [ICON_GreatWork_WRITING] Great Works of Writing provide +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]When recruiting a [ICON_GreatGeneral] Great General or [ICON_GreatWriter] Great Writer, receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.</Text>
+			<Text>Melee units receive the Convert Barbarians action, which consumes the melee unit.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production towards and +1 [ICON_FOOD] Food from [ICON_DISTRICT_ENCAMPMENT] Encampment buildings.[NEWLINE][NEWLINE]+1 [ICON_GreatWriter] Great Writer point from [ICON_DISTRICT_ENCAMPMENT] Encampments. Barracks and Stables provide 2 slots for [ICON_GreatWork_WRITING] Great Works of Writing, and Armories provide 1 slot. [ICON_GreatWork_WRITING] Great Works of Writing provide +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]When recruiting a [ICON_GreatGeneral] Great General or [ICON_GreatWriter] Great Writer, receive a random [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.</Text>
 		</Replace>
 		<!-- = leader ability (Yongle) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_YONGLE_XP_DESCRIPTION" Language="en_US">
