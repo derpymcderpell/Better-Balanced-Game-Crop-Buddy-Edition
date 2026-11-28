@@ -465,7 +465,7 @@
 		</Replace>
 		<!-- = leader ability (Ramses II) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
-			<Text>Gain [ICON_CULTURE] Culture equal to 10% of the construction cost when finishing Buildings and 15% [ICON_CULTURE] Culture when completing [ICON_DISTRICT_WONDER] Wonders. [NEWLINE][NEWLINE]Holy Sites are granted +1 [ICON_PRODUCTION] Production if built adjacent to a River.[NEWLINE][NEWLINE]+15% production bonus towards [ICON_DISTRICT_HOLY_SITE] Holy Sites and 20% towards [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones when the city is settled on a river. These Districts grant each other a standard adjacency bonus.</Text>
+			<Text>Gain [ICON_CULTURE] Culture equal to 10% of the construction cost when finishing Buildings and 15% [ICON_CULTURE] Culture when completing [ICON_DISTRICT_WONDER] Wonders.[NEWLINE][NEWLINE][ICON_DISTRICT_HOLY_SITE] Holy Sites are granted +1 [ICON_PRODUCTION] Production if built adjacent to a River and +1 [ICON_FAITH] Faith from adjacent sphinxes. [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones are granted +1 [ICON_PRODUCTION] Production from adjacent sphinxes. Sphinxes receive +1 [ICON_FOOD] Food from every 2 adjacent [ICON_HOLY_SITE] Holy Sites and +1 [ICON_PRODUCTION] from every 2 adjacent [ICON_INDUSTRIAL_ZONE] Industrial Zones.[NEWLINE][NEWLINE]+15% production bonus towards [ICON_DISTRICT_HOLY_SITE] Holy Sites and [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zones when the city is settled on a river. These Districts grant each other a standard adjacency bonus.</Text>
 		</Replace>
 		<!-- = leader ability (Egypt, Cleopatra Ptolemaic) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_CLEOPATRA_ALT_DESCRIPTION" Language="en_US">
