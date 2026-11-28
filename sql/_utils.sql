@@ -264,11 +264,15 @@ INSERT INTO RequirementArguments(RequirementId, Name, Value) VALUES
     ('BBG_REQUIRES_OBJECT_10_OR_MORE_TILES_FROM_CAPITAL', 'MinDistance', '10');
 
 
--- Every resources requirement
+-- Every resources requirement (November 27, 2026: Added reqset and reqset arguments)
 INSERT INTO Requirements (RequirementId, RequirementType) SELECT
     'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQ', 'REQUIREMENT_CITY_HAS_RESOURCE_TYPE_IMPROVED' FROM Resources WHERE NOT Resources.ResourceType='BBG_DUMMY_RESOURCE_MACEDON';
 INSERT INTO RequirementArguments (RequirementId, Name, Value) SELECT
     'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQ', 'ResourceType', Resources.ResourceType FROM Resources WHERE NOT Resources.ResourceType='BBG_DUMMY_RESOURCE_MACEDON';
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) SELECT
+    'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQSET', 'REQUIREMENTSET_TEST_ALL' FROM Resources WHERE NOT Resources.ResourceType='BBG_DUMMY_RESOURCE_MACEDON';
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) SELECT
+    'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQSET', 'BBG_CITY_HAS_IMPROVED_' || Resources.ResourceType || '_REQ' FROM Resources WHERE NOT Resources.ResourceType='BBG_DUMMY_RESOURCE_MACEDON';
     
 -- city has improved strategic
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
