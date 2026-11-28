@@ -546,7 +546,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('GOD_OF_WEALTH', 'ModifierId', 'GOD_OF_WEALTH_MODIFIER'),
     ('GOD_OF_WEALTH_MODIFIER', 'YieldType', 'YIELD_GOLD'),
-    ('GOD_OF_WEALTH_MODIFIER', 'Amount', 5);
+    ('GOD_OF_WEALTH_MODIFIER', 'Amount', 4);
 
 -- For now just replacing forge
 UPDATE BeliefModifiers SET ModifierID='GOD_OF_WEALTH' WHERE BeliefType='BELIEF_GOD_OF_THE_FORGE';
